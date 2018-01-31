@@ -1,7 +1,7 @@
 ---
 title: Random Walker
 subtitle:
-date: 2018-01-10
+date: 2018-01-30
 author: Lin Zhang
 layout: post
 comments: true
