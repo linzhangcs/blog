@@ -5,7 +5,7 @@ date: 2018-01-30
 author: Lin Zhang
 layout: post
 comments: true
-category: tangbileInteraction
+category: tangibleInteraction
 ---
 
 For the first assignment game controller with HID output, I chose to make a controller for this version of the [Lunar Lander](http://moonlander.seb.ly) game:
