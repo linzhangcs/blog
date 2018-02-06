@@ -1,5 +1,5 @@
 ---
-title: Game Controller
+title: Glove Game Controller
 subtitle:
 date: 2018-01-30
 author: Lin Zhang
