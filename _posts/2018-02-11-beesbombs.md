@@ -46,6 +46,6 @@ Once I have the pattern with boxes, I just to need to translate the change along
 ![final](https://media.giphy.com/media/28GQguS8qnN71ZaKSd/giphy.gif)
 ***What I have so far***
 
-Also realized my current way of recreating the original gif can't use 9*9 grid to produce this oscillating movement, because that is not enough boxes to visually present it. Maybe, I can use the Chequered image as a texture. It can be mapped with points that it moves long with. I did not find any texture UV coordinates related funcations in p5.js. After doing this execrise, I feel like I picked the wrong gif to code. I did get more familiar with WebGL in p5.js.
+Also realized my current way of recreating the original gif can't use 9*9 grid to produce this oscillating movement, because that is not enough boxes to visually present it. Maybe, I can use the Chequered image as a texture. It can be mapped with points that textual moves on. I did not find any texture UV coordinates related function in p5.js. After doing this exercise, I feel like I learned some basic usage of WebGL in p5.js.
 
 Project code can be found [here](http://alpha.editor.p5js.org/linzhang/sketches/HyQ0nmgvf)
