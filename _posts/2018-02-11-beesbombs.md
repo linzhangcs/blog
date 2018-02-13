@@ -8,7 +8,7 @@ comments: true
 category: natureofcode
 ---
 
-I decided to create one of [Bees & Bombs](https://beesandbombs.tumblr.com/)'s design gifs for week 3. Also, I selected this gif:
+I decided to create one of [Bees & Bombs](https://beesandbombs.tumblr.com/)'s gifs for week 3. I selected this gif:
 
 ![chequered waves]({{ site.baseurl }}/img/noc/chequeredwaves.gif)
 ***Chequered Waves***
