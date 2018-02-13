@@ -16,9 +16,9 @@ keep_files:
 # Site settings
 title: Lin Zhang's ITP Blog
 subtitle: "Classes and Projects"
-url: "http://linzhangcs.github.io" # http://luminousrubyist.github.io the base hostname & protocol for your site
+url: "http://linzhangcs.github.io/blog" # http://luminousrubyist.github.io the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/"
+baseurl: "/blog"
 production_url: http://linzhangcs.github.io/blog
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
@@ -26,7 +26,6 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 #theme: minima
-
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
