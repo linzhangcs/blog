@@ -26,7 +26,7 @@ After looking over the code again, I discovered the bug is one of the offset var
 
 ![updown](https://media.giphy.com/media/d3YI5l21Aiet66iI/giphy.gif)
 
-Once I recreated the example, I realized instead of using changes in height, I need to translate the location of the boxes. But first of all, I need to generated the boxes in chequered pattern:
+Once I recreated the example, I realized instead of using changes in height, I need to translate the positioning of the boxes along the Y axis. But first of all, I need to generated the boxes in chequered pattern:
 
 ![cp]({{ site.baseurl }}/img/noc/cp.png)
 
@@ -35,7 +35,7 @@ Once I recreated the example, I realized instead of using changes in height, I n
 
 I did not have experience with WebGL or OpenGL, so the 3D environment setup is very new to me. I wanted to have an idea how to setup camera, perspective, lighting, and material in 3d, I watched Dan's playlist on [WebGl in p5.js](https://www.youtube.com/watch?v=nqiKWXUX-o8&list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_) and followed along. To focus more on last week's topic, I decided to leave the camera rotation part for later, and just work on the oscillating movement for now.
 
-Once I have the pattern with boxes, I just to need to translate the change along axis-Y. I experimented on how to generate offset for a while. Here are some of the variations:
+Once I have the pattern with boxes, I just to need to translate the change along Y axis. I experimented on how to generate offset for a while. Here are some of the variations:
 
 ![2waves](https://media.giphy.com/media/1JKvv6q0eWJHpq2XL6/giphy.gif)
 ***The edge boxes are too far apart***
