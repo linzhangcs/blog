@@ -33,7 +33,7 @@ Once I recreated the example, I realized instead of using changes in height, I n
 ![cqtwocolors]({{ site.baseurl }}/img/noc/cqtwocolors.png)
 **_For some reasons, (0, 0) seems to be at (width/2, height/2). What do I set to start at (0, 0)? I have so many questions._**
 
-I did not have experience with WebGL or OpenGL, so the 3D environment setup is very new to me. I wanted to have an idea how camera, perspective, lighting, and material in 3d, I watched Dan's playlist on [WebGl in p5.js](https://www.youtube.com/watch?v=nqiKWXUX-o8&list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_) and followed along. To focus more on last week's topic, I decided to leave the camera rotation part for later, and just work on the oscillating movement for now.
+I did not have experience with WebGL or OpenGL, so the 3D environment setup is very new to me. I wanted to have an idea how to setup camera, perspective, lighting, and material in 3d, I watched Dan's playlist on [WebGl in p5.js](https://www.youtube.com/watch?v=nqiKWXUX-o8&list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_) and followed along. To focus more on last week's topic, I decided to leave the camera rotation part for later, and just work on the oscillating movement for now.
 
 Once I have the pattern with boxes, I just to need to translate the change along axis-Y. I experimented on how to generate offset for a while. Here are some of the variations:
 
