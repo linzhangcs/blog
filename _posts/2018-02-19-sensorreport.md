@@ -12,7 +12,7 @@ category: tangibleInteraction
 
 We are all very familiar with measuring heart rate manually - just think of doctor visits where the doctor or nurse listen to our pulse and count heart beats per minute. This method works because the expansion and contraction of blood vessel when blood enters and leaves the heart.
 
-How does a pulse sensor measure heart rate? It is uses a different method called photoplethysmography (or PPG). It is based on the property that the oxygenated and de-oxygenated blood have different optical properties. By detecting a change in the absorbance or reflectance of light, we can measure pulse. The pulse sensor flashes one or multiple green LEDs onto the skin, and a light sensor measures the green light absorption. This is the basic idea of how most common pulse sensors work.
+How does a pulse sensor measure heart rate? It is uses a different method called photoplethysmography (or PPG). It is based on the fact oxygenated and de-oxygenated blood have different optical properties. By detecting a change in the absorbance or reflectance of light, we can measure pulse. The pulse sensor flashes one or multiple green LEDs onto the skin, and a light sensor measures the green light absorption. This is the basic idea of how most common pulse sensors work.
 
 ![pulse sensor image]({{ site.baseurl }}/img/tangible/PPG-diagram-optical-heart.jpg)
 
