@@ -7,15 +7,25 @@ layout: post
 comments: true
 category: tangibleInteraction
 ---
+## Pulse Sensor
+#### How does it work?
 
-## Description
+We are all every familiar with measuring heart rate manually - just think of doctor visits where the doctor or nurse feels or listens to our pulse and count heart beats per minute. This method works because the expansion and contraction of blood vessel when blood enters and leaves the heart.
 
-The pulse sensor amped is an easy-to-use heart-rate sensor for Arduino. It makes incorporating live heart-rate data into projects straightforward. Use velcro finger strap for measuring heart rate or attach ear clip for measuring earlobe heart rate, and then plug the sensor into Arduino without soldering. It works with either a 3V or 5V Arduino.
+How does a pulse sensor measure heart rate? It is uses a different method called photoplethysmography (or PPG). It is based on the property that the oxygenated and de-oxygenated blood have different optical properties. By detecting a change in the absorbance or reflectance of light, we can measure pulse. The pulse sensor flashes one or multiple green LEDs onto the skin, and a light sensor measures the green light absorption. This is the basic idea of how most common pulse sensors work.
+
+![pulse sensor image]({{ site.baseurl }}/img/tangible/PPG-diagram-optical-heart.jpg)
+
+## Description of Pulse Sensor Amped
+
+The pulse sensor amped measures based on PPG. It is an easy-to-use version of pulse sensor for Arduino. It makes incorporating live heart-rate data into projects straightforward. The kit comes with finger strap and ear clip. That provides ways to place the sensor and measure heart rate. We could use finger strap or attach ear clip, and then plug the sensor into Arduino without soldering. It also works with either a 3V or 5V Arduino.
 ![finger reading](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/raw/master/pics/finger.jpg)
 
 ![earlobe reading](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/raw/master/pics/earclip.jpg)
 
-This sensor combines an optical heart rate sensor with amplification and noise cancellation circuitry. The improvements make the heart rate reading faster and more reliable.
+This sensor combines an optical heart rate sensor with amplification and noise cancellation circuitry. The improvements make the heart rate reading faster and more reliable. See sensor schematic:
+
+![sensor schematic]({{ site.baseurl }}/img/tangible/schematic_sensor.png)
 
 Also, the Pulse Sensor creators made an accompany [Processing visualization software](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Processing_Visualizer) for this hardware. Using the visualization software, one can instantly see output of the sensor and also use it for troubleshooting.
 
@@ -46,9 +56,11 @@ This sensor uses Ambient light Sensor ([APDS-9008](http://www.avagotech.com/docs
 ![after reading](https://cdn.shopify.com/s/files/1/0100/6632/files/pulseWaveformAmpdVersion_large.jpg?619)
 ## Description of Example Uses
 
-There are different types of projects that can incorporate live heart rate into, such as exercise, meditation, and light installation.
+There are different types of projects that can incorporate live heart rate as part of its interactivity, such as wearables fitness tracker, meditation trainer, and sound and light installation.
 
-[Fall In Line](https://www.sparkfun.com/videos#all/ZgtvEsSGMJ8/124)
+<!-- [apple Watch](https://support.apple.com/en-us/HT204666)
+[Playground](https://github.com/WorldFamousElectronics/PulseSensorPlayground)
+[Fall In Line](https://www.sparkfun.com/videos#all/ZgtvEsSGMJ8/124) -->
 
 
 ## Strengths and Weaknesses
