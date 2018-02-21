@@ -18,7 +18,7 @@ How does a pulse sensor measure heart rate? It is uses a different method called
 
 ## Description of Pulse Sensor Amped
 
-The pulse sensor amped measures based on PPG. It is an easy-to-use version of pulse sensor for Arduino. It makes incorporating live heart-rate data into projects straightforward. The kit comes with finger strap and ear clip. That provides ways to place the sensor and measure heart rate. We could use finger strap or attach ear clip, and then plug the sensor into Arduino without soldering. It also works with either a 3V or 5V Arduino.
+The pulse sensor amped measures heart-rate based on PPG. It is an easy-to-use version of pulse sensor for Arduino. It makes incorporating live heart-rate data into projects straightforward. The kit comes with finger strap and ear clip. That provides ways to place the sensor and measure heart rate. We could use finger strap or attach ear clip, and then plug the sensor into Arduino. It also works with either a 3V or 5V Arduino.
 ![finger reading](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/raw/master/pics/finger.jpg)
 
 ![earlobe reading](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/raw/master/pics/earclip.jpg)
