@@ -58,12 +58,19 @@ This sensor uses Ambient light Sensor ([APDS-9008](http://www.avagotech.com/docs
 
 There are different types of projects that can incorporate live heart rate as part of its interactivity, such as wearables fitness tracker, meditation trainer, and sound and light installation.
 
+
+#### [Meditation Trainer](https://learn.adafruit.com/heart-rate-variability-sensor)
+
+When we think of pulses, we normally think it is likely to be pretty constant values. However, our interval between beats (IBI) fluctuates a lot, and the variance between heart beat interval is known as heart rate variability (HRV). When we breath in a certain pattern, our cardiac rhythms can also fall in sync and HRV becomes a sine wave. Meditation Trainer is a project that uses live heart-rate and based on this interesting fact to train the user to breath better and reduce anxiety.
+
+
 <!-- [apple Watch](https://support.apple.com/en-us/HT204666)
 [Playground](https://github.com/WorldFamousElectronics/PulseSensorPlayground)
 [Fall In Line](https://www.sparkfun.com/videos#all/ZgtvEsSGMJ8/124) -->
 
 ## Strengths and Weaknesses
 
+S
 ## Example Circuit Schematic
 
 ## Example Microcontroller Code
