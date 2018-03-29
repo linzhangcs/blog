@@ -22,7 +22,7 @@ The ground side of the circuit was interesting to add, because I had to think ab
 ![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_3169.JPG)
 ![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_6694.JPG)
 
-Since it is a brooch, I originally thought I could use the safety pin as a switch when open and close it. However, I realized safety as a whole is conducive, so my originally idea did not work.
+Since it is a brooch, I originally thought I could use the safety pin as a switch when open and close it. However, I realized safety pin as a whole is conducive, so my original idea did not work.
 
 Regardless, I still connected the safety pin to the ground side to take advantage the fact that it is conducive. It can also help to secure the battery.
 
