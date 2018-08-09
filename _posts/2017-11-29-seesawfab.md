@@ -7,7 +7,7 @@ layout: post
 comments: true
 category: pcomp
 img: pcomp/seesaw-fab/IMG_5824.JPG
-tags: [Physical computing]
+tags: [Physical Computing]
 ---
 
 
