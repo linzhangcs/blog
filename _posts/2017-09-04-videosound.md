@@ -5,7 +5,7 @@ date: 2017-09-14
 author: Lin Zhang
 layout: post
 comments: true
-img: soundwalk/IMG_3507.jpg
+img: soundwalk/IMG_3507.JPG
 category: videosound
 tags: [Video and Sound]
 ---
