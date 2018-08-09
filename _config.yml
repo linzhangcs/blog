@@ -6,9 +6,9 @@ url:               "" # the base hostname & protocol for your site, e.g. http://
 site-twitter:      #if your site has a twitter account, enter it here
 
 # Author Settings
-author:            Lin Zhang # add your name
+author:            Lin Zhang  # add your name
 author-img:        lz.jpg # add your photo
-about-author:      I am a graduate student and front-end developer. Just like Javascript, I am weird and awesome :) # add description
+about-author:      I am a graduate student and front-end developer. Just like Javascript, I am weird and awesome. # add description
 #social-twitter:   # add your Twitter handle
 #social-facebook:  # add your Facebook handle
 social-github:     linzhangcs # add your Github handle
