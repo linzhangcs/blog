@@ -6,6 +6,7 @@ author: Lin Zhang
 layout: post
 comments: true
 category: pcomp
+tags: [Physical Computing]
 ---
 
 For the final project, I want to make something that is fun. Also, I want to make the interaction intuitive for people to understand without explanation.

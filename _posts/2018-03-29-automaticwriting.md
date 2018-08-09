@@ -6,6 +6,7 @@ author: Lin Zhang
 layout: post
 comments: true
 category: electronicrituals
+tags: [Electronic Rituals]
 ---
 
 I wanted to make implement website that follows steps of digital version of automatic writing process. I searched online about how people practice automatic writing digitally.

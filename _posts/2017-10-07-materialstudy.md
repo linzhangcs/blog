@@ -4,7 +4,8 @@ subtitle: Brass and steel
 date: 2017-10-07
 author: Lin Zhang
 comments: true
-layout: fab
+img: fab/twoMaterials/IMG_4122.JPG
+layout: post
 category: fab
 ---
 
@@ -18,60 +19,60 @@ The inspiration for my two material project is the kinetic ring made by South Ko
 
 Although Dukno made his ring using one type of metal, I want to see how different metal would look together. I got steel and brass wire, brass tubes, and feather.
 
-![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4002.JPG?raw=true)
+![materials]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4002.JPG)
 
-![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4005.JPG?raw=true)
+![materials]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4005.JPG)
 
-![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4011.JPG?raw=true)
+![materials]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4011.JPG)
 
-![materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4007.JPG?raw=true)
+![materials]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4007.JPG)
 
-![hot glue connections](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4019.JPG?raw=true)
+![hot glue connections]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4019.JPG)
 
-![hot glue connections](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4022.JPG?raw=true)
+![hot glue connections]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4022.JPG)
 
 Using hot glue to secure the connections looks too bulky, so I tried to solder the connections. After trying for a while, I found out the melting point of steel is too high for it to work with what I have.
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4013.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4013.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4016.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4016.JPG)
 
 Another issue I ran into was cutting the thin bass tube. I thought it would be pretty easy to do using metal saw or a plier. However, the tube would deform when I try to put too much pressure on it. I need try a different method for cutting the tube.
 
-![brass tube](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4025.JPG?raw=true)
+![brass tube]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4025.JPG)
 
-![brass tube](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4027.JPG?raw=true)
+![brass tube]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4027.JPG)
 
 ## Day Two
 
 I found new material - copper. It can be soldered at lower temperature.
 
-![new materials](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4076.JPG?raw=true)
+![new materials]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4076.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4077.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4077.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4080.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4080.JPG)
 
 
 ## Day Three
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4111.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4111.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4112.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4112.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4113.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4113.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4115.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4115.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4122.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4122.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4123.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4123.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4120.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4120.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4126.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4126.JPG)
 
-![solder](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/fab/twoMaterials/IMG_4129.JPG?raw=true)
+![solder]({{ site.baseurl }}/assets/img/fab/twoMaterials/IMG_4129.JPG)
 
 ![joints](https://media.giphy.com/media/xUNd9ZJA8YgdFxhl8k/giphy.gif)
 

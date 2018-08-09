@@ -5,22 +5,24 @@ date: 2018-03-28
 author: Lin Zhang
 layout: post
 comments: true
+img: expressiveinterface/IMG_6694.JPG
 category: expressiveinterface
+tags: [Expressive Interface]
 ---
 
 For my soft circuit, I liked the overlaying layers of fabric look I tried in class. So I made a brooch that is based on the pattern of the fabric.
 
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_5258.JPG)
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_9670.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_5258.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_9670.JPG)
 
 Once I cut out of the pattern I used fabric glue to adhere the two layers and sew the circuit into the the pattern
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_4928.JPG)
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_9149.JPG)
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_7811.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_4928.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_9149.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_7811.JPG)
 
 The ground side of the circuit was interesting to add, because I had to think about how to do it and also be able to hold the battery. Added an additional piece of fabric for and sew that end to the ground side of the LED.
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_3169.JPG)
-![fabric]({{ site.baseurl }}/img/expressiveinterface/IMG_6694.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_3169.JPG)
+![fabric]({{site.baseurl}}/assets/img/expressiveinterface/IMG_6694.JPG)
 
 Since it is a brooch, I originally thought I could use the safety pin as a switch when open and close it. However, I realized safety pin as a whole is conducive, so my original idea did not work.
 
@@ -30,4 +32,4 @@ One more thing I learned from this process is the importance of sewing precise s
 
 Here is a video of my soft circuit in action:
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/ZNjU61iKX-8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="520" src="https://www.youtube.com/embed/ZNjU61iKX-8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

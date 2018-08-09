@@ -5,7 +5,9 @@ date: 2018-04-15
 author: Lin Zhang
 layout: post
 comments: true
+img: noc/toNis.png
 category: natureofcode
+tags: [Nature of Code]
 ---
 
 ## Project Proposal: Gratitude Forest
@@ -17,7 +19,7 @@ The goal of this project is to create a virtual space where one can practice gra
 The project idea comes from these projects:
 
 [Wild flower](http://wildflower.resn.co.nz/)
-![wild flower]({{ site.baseurl }}/img/noc/toNis.png)
+![wild flower]({{site.baseurl}}/assets/img/noc/toNis.png)
 
 [Forest - stay focused, be present](https://www.forestapp.cc/en/)
 ![forest app](https://cdn-images-1.medium.com/max/1600/1*UVgXVdJeobfc3lHkj9L8-g.png)
@@ -46,7 +48,7 @@ Because it aims to create a forest, using three.js to render 3D space is better 
 
 Another consideration is the style of the tree. It can be realistic or stylized. Found examples of stylized generated plants:
 
-![Low-poly]({{ site.baseurl }}/img/noc/low-poly.jpg)
+![Low-poly]({{site.baseurl}}/assets/img/noc/low-poly.jpg)
 
 [Wild Trees](https://jasfar.github.io/wildflowers/)
 

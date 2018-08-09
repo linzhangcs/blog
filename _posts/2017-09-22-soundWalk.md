@@ -3,9 +3,10 @@ title: Tisch Building Sound Walk
 subtitle:
 date: 2017-09-22
 author: Lin Zhang
-layout: videosound
+layout: post
 comments: true
 category: videosound
+tags: [Video and Sound]
 ---
 
 ## Team members: Lin Zhang, Alexandra Lopez

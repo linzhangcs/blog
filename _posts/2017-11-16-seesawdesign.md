@@ -6,6 +6,8 @@ author: Lin Zhang
 layout: post
 comments: true
 category: pcomp
+img: pcomp/materials.jpg
+tags: [Physical Computing]
 ---
 During this week, we decided on the overall design of the seesaw and broke down the components we need to for fabricating the actual seesaw.
 
@@ -21,7 +23,7 @@ During this week, we decided on the overall design of the seesaw and broke down 
 
 ## Components
 
-![Seesaw Design Components](https://raw.githubusercontent.com/linzhangcs/linzhangcs.github.io/master/img/pcomp/materials.jpg)
+![Seesaw Design Components]({{ site.baseurl }}/assets/img/pcomp/materials.jpg)
 
 ## Bill of Components
 

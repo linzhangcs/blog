@@ -4,8 +4,10 @@ subtitle:
 date: 2017-12-13
 author: Lin Zhang
 layout: post
-comments: tr3ue
+comments: true
 category: pcomp
+img:  pcomp/seesaw-fab/IMG_5136.JPG
+tags: [Physical Computing]
 ---
 
 ## Seesaw design
@@ -14,15 +16,15 @@ category: pcomp
 
 ## 3D Prototype
 
-<iframe src="https://giphy.com/embed/26u4l3YukYHMZcHO8" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<iframe src="https://giphy.com/embed/26u4l3YukYHMZcHO8" width="100%" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## CNC Seats
 
-![cnc seats](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5136.JPG?raw=true)
+![cnc seats]({{ site.baseurl }}/assets/img/pcomp/seesaw-fab/IMG_5136.JPG)
 
-![cnc seats](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5144.JPG?raw=true)
+![cnc seats]({{ site.baseurl }}/assets/img/pcomp/seesaw-fab/IMG_5144.JPG)
 
-![cnc seats](https://github.com/linzhangcs/linzhangcs.github.io/blob/master/img/pcomp/seesaw-fab/IMG_5173.JPG?raw=true)
+![cnc seats]({{ site.baseurl }}/assets/img/pcomp/seesaw-fab/IMG_5173.JPG)
 
 ![cnc seats](https://static.wixstatic.com/media/49915d_dfa414d01c504f4792c693ca24ac3e9b~mv2.jpg/v1/fill/w_1302,h_579,al_c,q_85,usm_0.66_1.00_0.01/49915d_dfa414d01c504f4792c693ca24ac3e9b~mv2.webp)
 

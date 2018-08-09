@@ -6,6 +6,7 @@ author: Lin Zhang
 layout: post
 comments: true
 category: electronicrituals
+tags: [Electronic Rituals]
 ---
 
 To design my own oracle deck, I thought about how oracle deck is visual representative of the meaning of the card.

@@ -6,6 +6,8 @@ author: Lin Zhang
 layout: post
 comments: true
 category: tangibleInteraction
+img: tangible/biometric_in_use.jpg
+tags: [Tangible Interaction, Physical Computing]
 ---
 ## Pulse Sensor
 #### How does it work?
@@ -14,7 +16,7 @@ We are all very familiar with measuring heart rate manually - just think of doct
 
 How does a pulse sensor measure heart rate? That utilizes a different method called photoplethysmography (or PPG). It is based on the fact oxygenated and de-oxygenated blood have different optical properties. By detecting a change in the absorbance or reflectance of light emitted onto the skin, we can measure pulse. Pulse sensors have up to two green LEDs flash onto the skin, and a light sensor measures the green light absorption and detect the peak. This is the basic idea of how optical pulse sensor work. If you have used any of the fitness tracker wearables on the market, such like [Apple Watch](https://support.apple.com/en-us/HT204666) and [Fitbit](https://www.fitbit.com/technology), you can this method in action.
 
-![pulse sensor image]({{ site.baseurl }}/img/tangible/PPG-diagram-optical-heart.jpg)
+![pulse sensor image]({{site.baseurl}}/assets/img/tangible/PPG-diagram-optical-heart.jpg)
 
 ![apple watch](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applewatch/watch-measure-sensors.png)
 ***Apple Watch Tech Spec***
@@ -28,7 +30,7 @@ The pulse sensor amped measures heart-rate based on PPG. It is an easy-to-use ve
 
 This sensor combines an optical heart rate sensor with amplification and noise cancellation circuitry. The improvements make the heart rate reading faster and more reliable. See sensor schematic:
 
-![sensor schematic]({{ site.baseurl }}/img/tangible/schematic_sensor.png)
+![sensor schematic]({{site.baseurl}}/assets/img/tangible/schematic_sensor.png)
 
 Also, the Pulse Sensor creators made a complementary [Processing visualization software](https://github.com/WorldFamousElectronics/PulseSensor_Amped_Processing_Visualizer) for this hardware. Using the visualization software, one can instantly see output of the sensor and also use it for troubleshooting.
 
@@ -59,13 +61,13 @@ There are different types of projects that can incorporate live heart rate as pa
 
 
 #### [Meditation Trainer](https://learn.adafruit.com/heart-rate-variability-sensor)
-![mediation]({{ site.baseurl }}/img/tangible/biometric_in_use.jpg)
+![mediation]({{site.baseurl}}/assets/img/tangible/biometric_in_use.jpg)
 
 This project in particular points out a different way of using pulse data.
 When we think of pulses, we normally think it is likely to be pretty constant values. However, our interval between beats (IBI) fluctuates a lot, and the variance between heart beat interval is known as heart rate variability (HRV). When we breath in a certain pattern, our cardiac rhythms can also fall in sync and HRV becomes a sine wave. Meditation Trainer is a project that uses live heart-rate and based on this interesting fact to train the user to breath better and reduce anxiety.
-![HRV]({{ site.baseurl }}/img/tangible/biometric_hrv_stressed.jpg)
+![HRV]({{site.baseurl}}/assets/img/tangible/biometric_hrv_stressed.jpg)
 ***HRV pattern of someone that is feeling stressed***
-![HRV]({{ site.baseurl }}/img/tangible/biometric_hrv_calm.jpg)
+![HRV]({{site.baseurl}}/assets/img/tangible/biometric_hrv_calm.jpg)
 ***This is the goal of meditation trainer - calm breathing pattern***
 
 
