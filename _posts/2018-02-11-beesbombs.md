@@ -5,17 +5,17 @@ date: 2018-02-11
 author: Lin Zhang
 layout: post
 comments: true
-category: natureofcode
-img: noc/cqtwocolors.png
+categories: natureofcode
+image: noc/cqtwocolors.png
 tags: [Nature of Code]
 ---
 
 I decided to create one of [Bees & Bombs](https://beesandbombs.tumblr.com/)'s gifs for week 3. I selected this gif:
 
-![chequered waves]({{site.baseurl}}/assets/img/noc/chequeredwaves.gif)
+![chequered waves]({{site.baseurl}}/images/noc/chequeredwaves.gif)
 ***Chequered Waves***
 
-<!-- ![sea urchin]({{site.baseurl}}/assets/img/noc/seaurchin.gif)
+<!-- ![sea urchin]({{site.baseurl}}/images/noc/seaurchin.gif)
 ***Sea Urchin*** -->
 
 For the Chequered Waves, I followed one of Dan's [coding challenge](https://www.youtube.com/watch?v=H81Tdrmz2LA) videos as a starting point. The behaviors of the two are very similar.
@@ -30,9 +30,9 @@ After looking over the code again, I discovered the bug is one of the offset var
 
 Once I recreated the example, I realized instead of using changes in height, I need to translate the positioning of the boxes along the Y axis. But first of all, I need to generated the boxes in chequered pattern:
 
-![cp]({{site.baseurl}}/assets/img/noc/cp.png)
+![cp]({{site.baseurl}}/images/noc/cp.png)
 
-![cqtwocolors]({{site.baseurl}}/assets/img/noc/cqtwocolors.png)
+![cqtwocolors]({{site.baseurl}}/images/noc/cqtwocolors.png)
 **_For some reasons, (0, 0) seems to be at (width/2, height/2). What do I set to start at (0, 0)? I have so many questions._**
 
 I did not have experience with WebGL or OpenGL, so the 3D environment setup is very new to me. I wanted to have an idea how to setup camera, perspective, lighting, and material in 3d, I watched Dan's playlist on [WebGl in p5.js](https://www.youtube.com/watch?v=nqiKWXUX-o8&list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_) and followed along. To focus more on last week's topic, I decided to leave the camera rotation part for later, and just work on the oscillating movement for now.

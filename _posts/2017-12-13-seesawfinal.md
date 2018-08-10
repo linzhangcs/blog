@@ -5,8 +5,8 @@ date: 2017-12-13
 author: Lin Zhang
 layout: post
 comments: true
-category: pcomp
-img:  pcomp/seesaw-fab/IMG_5136.JPG
+categories: PhysicalComputing
+image:  pcomp/seesaw-fab/IMG_5136.JPG
 tags: [Physical Computing]
 ---
 
@@ -20,11 +20,11 @@ tags: [Physical Computing]
 
 ## CNC Seats
 
-![cnc seats]({{ site.baseurl }}/assets/img/pcomp/seesaw-fab/IMG_5136.JPG)
+![cnc seats]({{ site.baseurl }}/images/pcomp/seesaw-fab/IMG_5136.JPG)
 
-![cnc seats]({{ site.baseurl }}/assets/img/pcomp/seesaw-fab/IMG_5144.JPG)
+![cnc seats]({{ site.baseurl }}/images/pcomp/seesaw-fab/IMG_5144.JPG)
 
-![cnc seats]({{ site.baseurl }}/assets/img/pcomp/seesaw-fab/IMG_5173.JPG)
+![cnc seats]({{ site.baseurl }}/images/pcomp/seesaw-fab/IMG_5173.JPG)
 
 ![cnc seats](https://static.wixstatic.com/media/49915d_dfa414d01c504f4792c693ca24ac3e9b~mv2.jpg/v1/fill/w_1302,h_579,al_c,q_85,usm_0.66_1.00_0.01/49915d_dfa414d01c504f4792c693ca24ac3e9b~mv2.webp)
 

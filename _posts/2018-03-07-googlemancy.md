@@ -6,12 +6,13 @@ author: Lin Zhang
 layout: post
 comments: true
 category: electronicrituals
+img: electricRitual/luckyscreen.png
 tags: [Electronic Rituals]
 ---
 
 For my "-omancy" divination invention, I was inspired by Google's "I'm feeling lucky" option. I remember the first time when I used Google. I didn't quite understand the point of the second button on the main page. Even after trying it, I still only use the search button. But it did leave an impression on my, because its deterministic and predictive nature. It definitely works as a prophecy about a specific request.
 
-![I am feeling lucky]({{ site.baseurl}}/assets/img/electricRitual/luckyscreen.png)
+![I am feeling lucky]({{site.baseurl}}/images/electricRitual/luckyscreen.png)
 
 For my project, I want to modify this divination method. As a way to start, I googled about "Googlemancy". Interestingly, there are people already [proposed](http://occultcorpus.com/forums/index.php?/topic/14136-googlemancy/) it. Here are list of methods:
 

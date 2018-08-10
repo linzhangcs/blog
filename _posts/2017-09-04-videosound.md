@@ -5,8 +5,8 @@ date: 2017-09-14
 author: Lin Zhang
 layout: post
 comments: true
-img: soundwalk/IMG_3507.JPG
-category: videosound
+image: soundwalk/IMG_3507.jpg
+categories: video&sound
 tags: [Video and Sound]
 ---
 For the soundwalk experience, I decided to do Her Long Black Hair. The storyline of the walk seemed very intriguing and I wanted to explore Central Park.
@@ -21,22 +21,22 @@ The only times that I found myself tune out were instances when she made referen
 
 This audio walk was a new, intimate, and wonderful experience for me. It made me more aware of sound. I experienced a brand-new dimension that sound can bring.
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3513.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3513.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3520.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3520.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3527.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3527.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3534.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3534.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3538.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3538.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3541.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3541.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3551.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3551.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3555.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3555.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3570.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3570.JPG)
 
-![soundwalk]({{site.baseurl}}/assets/img/soundwalk/IMG_3584.JPG)
+![soundwalk]({{site.baseurl}}/images/soundwalk/IMG_3584.JPG)

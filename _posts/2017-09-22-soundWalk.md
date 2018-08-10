@@ -5,7 +5,7 @@ date: 2017-09-22
 author: Lin Zhang
 layout: post
 comments: true
-category: videosound
+categories: video&sound
 tags: [Video and Sound]
 ---
 

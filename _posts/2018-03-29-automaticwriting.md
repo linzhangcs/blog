@@ -5,7 +5,7 @@ date: 2018-03-28
 author: Lin Zhang
 layout: post
 comments: true
-category: electronicrituals
+categories: electronicrituals
 tags: [Electronic Rituals]
 ---
 

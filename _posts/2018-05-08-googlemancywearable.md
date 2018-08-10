@@ -5,8 +5,8 @@ date: 2018-05-08
 author: Lin Zhang
 layout: post
 comments: true
-img: electricRitual/result.png
-category: electronicrituals
+image: electricRitual/result.png
+categories: electronicrituals
 tags: [Electronic Rituals]
 ---
 
@@ -20,30 +20,30 @@ I found a website devoted to Google as a religion - [Church of Google](http://ch
 
 As users following the steps of the instruction, they will input their question, date of birth, and asked to bow down 3 times to send a request to Google.
 
-![intro text]({{site.baseurl}}/assets/img/electricRitual/intro.png)
+![intro text]({{site.baseurl}}/images/electricRitual/intro.png)
 
-![3rd step]({{site.baseurl}}/assets/img/electricRitual/3rdstep.png)
+![3rd step]({{site.baseurl}}/images/electricRitual/3rdstep.png)
 
 The result is a poem composed based on the text from the selected website.
-![result]({{site.baseurl}}/assets/img/electricRitual/result.png)
+![result]({{site.baseurl}}/images/electricRitual/result.png)
 
-![result]({{site.baseurl}}/assets/img/electricRitual/languageParts.png)
+![result]({{site.baseurl}}/images/electricRitual/languageParts.png)
 
 I used Google custom search API to search based on the question, and select the website using the users' date of birth. Once a website is selected, I send out another request to retrieve its page as a html string. After parsing the html string, I used [compromise.js](http://compromise.cool/) to parse all of the nouns, verbs, and adjectives to create a poem using a pre-defined sentence structure.
 
 Here is the accompanying wearable for this project:
 
-![device]({{site.baseurl}}/assets/img/electricRitual/wearablefront.JPG)
+![device]({{site.baseurl}}/images/electricRitual/wearablefront.JPG)
 
-![device]({{site.baseurl}}/assets/img/electricRitual/wearableside.JPG)
+![device]({{site.baseurl}}/images/electricRitual/wearableside.JPG)
 
-![device]({{site.baseurl}}/assets/img/electricRitual/wearableback.JPG)
+![device]({{site.baseurl}}/images/electricRitual/wearableback.JPG)
 
-![device]({{site.baseurl}}/assets/img/electricRitual/circuit.JPG)
+![device]({{site.baseurl}}/images/electricRitual/circuit.JPG)
 
-![device]({{site.baseurl}}/assets/img/electricRitual/prototypes.JPG)
+![device]({{site.baseurl}}/images/electricRitual/prototypes.JPG)
 
-![device]({{site.baseurl}}/assets/img/electricRitual/finish.png)
+![device]({{site.baseurl}}/images/electricRitual/finish.png)
 
 Here is a video for testing & presentation
 

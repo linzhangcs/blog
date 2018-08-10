@@ -5,7 +5,7 @@ date: 2017-09-14
 author: Lin Zhang
 layout: post
 comments: true
-category: videosound
+categories: video&sound
 tags: [Video and Sound]
 ---
 Originality and plagiarism are interesting and difficult topics to discuss. In Jonathan Lethem’s  article, The Ecstasy Of Influence, he argues there is no truly original artwork, not in the way originality being explained in the mass media : a solitary endeavor without outside influences. He gives numerous examples of famous artists appropriating and incorporating other artists’ work into their artwork. Using those established artists’ behavior as a way to challenge us to re-examine the current notion of originality and plagiarism. And he goes further and argues unlike “a car or a handbag, once stolen, no longer is available to its owner, while the appropriation of an article of ‘intellectual property’ leaves the original untouched.” The past artworks are the building blocks for the future creators. Kirby Ferguson makes similar points in his TED talk.

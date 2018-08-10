@@ -5,8 +5,8 @@ date: 2018-04-22
 author: Lin Zhang
 layout: post
 comments: true
-img: noc/background.png
-category: natureofcode
+image: noc/background.png
+categories: natureofcode
 tags: [Nature of Code]
 ---
 ## Final Project Proposal: Gratitude forest
@@ -24,7 +24,7 @@ It requires storage, alarms, unlimitedStorage, geolocation, and browser activity
 #### Does it have a browser action, page action, content script(s), background scripts, other?
 
 Because this extension let users type in their thankful messages, save them, and share them. Multiple event scripts are included in the project, here is a screen capture of the scripts:
-![background]({{site.baseurl}}/assets/img/noc/background.png)
+![background]({{site.baseurl}}/images/noc/background.png)
 
 The file structure of this project is well separated. So if anyone look into this project, he or she can identify which file to change for a certain functionality. Also there is something different about this project. Because it an extension that replaces the new tab page but not any other pages, it does not have content scripts.
 

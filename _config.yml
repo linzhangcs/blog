@@ -2,35 +2,53 @@ title:             Lin's Blog :)
 description:       This blog is a journal for Lin's 2 years at NYU, ITP and beyond.
 permalink:         ':title/'
 baseurl:           "/blog" # the subpath of your site, e.g. /blog
-url:               "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter:      #if your site has a twitter account, enter it here
+url:               "/blog" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Author Settings
-author:            Lin Zhang  # add your name
-author-img:        lz.jpg # add your photo
-about-author:      I am a graduate student and front-end developer. Just like Javascript, I am weird and awesome. # add description
-#social-twitter:   # add your Twitter handle
-#social-facebook:  # add your Facebook handle
-social-github:     linzhangcs # add your Github handle
-social-linkedin:   lin-zhang-7453b639 # add your Linkedin handle
-social-email:      lz1414@nyu.edu # add your Email address
+# Author
+author-name:       Lin Zhang
+author-image:      lz.jpg
+author-job:        Graduate Student
+author-email:      lz1414@nyu.edu # Add your email for contant form.
+author-twitter:    # Add your twitter account
+about-author:      I am a graduate student and front-end developer. Just like Javascript, I am weird and awesome :) # add description
 
-# Disqus
-discus-identifier: linzhang # add your discus identifier
+# Social settings
+social-twitter:
+social-facebook:
+social-github:     linzhangcs
+social-pinterest:
+social-instagram:  linzhangitp
+social-youtube:
+social-vk:
+social-linkedin:   lin-zhang-7453b639
 
-# Tracker
-analytics:         # Google Analytics
+# Newsletter
+mailchimp:         # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
-# Build Settings
+# Google Analytics
+google-analytics:  # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+disqus-identifier: linzhang # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
 markdown:          kramdown
+permalink:         /:year/:month/:day/:title/
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
-gems:
-  - jemoji
 
 paginate:          10
-paginate_path:     "/page/:num"
+paginate_path:     "/blog/page/:num/"
 
-exclude:           ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+include:
+  - _pages
+
+sass:
+  sass_dir:        _sass
+  style:           compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

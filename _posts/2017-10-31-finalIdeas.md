@@ -5,7 +5,7 @@ date: 2017-10-31
 author: Lin Zhang
 layout: post
 comments: true
-category: pcomp
+categories: PhysicalComputing
 tags: [Physical Computing]
 ---
 
