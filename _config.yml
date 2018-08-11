@@ -1,8 +1,8 @@
-title:             Lin's Blog :)
+title:             Welcome to Lin's Blog :)
 description:       This blog is a journal for Lin's 2 years at NYU, ITP and beyond.
 permalink:         ':title/'
 baseurl:           "/blog" # the subpath of your site, e.g. /blog
-url:               "/blog" # the base hostname & protocol for your site, e.g. http://example.com
+url:               "https://linzhangcs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:       Lin Zhang
@@ -19,7 +19,6 @@ social-github:     linzhangcs
 social-pinterest:
 social-instagram:  linzhangitp
 social-youtube:
-social-vk:
 social-linkedin:   lin-zhang-7453b639
 
 # Newsletter
@@ -38,7 +37,7 @@ plugins:
   - jekyll-paginate
 
 paginate:          10
-paginate_path:     "/blog/page/:num/"
+paginate_path:     "/blog/page/:num"
 
 include:
   - _pages

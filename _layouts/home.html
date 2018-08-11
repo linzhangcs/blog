@@ -14,7 +14,7 @@ layout: default
     </div>
     <div class="c-contact-menu">
       {% if site.author-email %}
-      <a href="/contact" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><span data-icon='ei-envelope' data-size='s'></span> Send me</a>
+      <a href="{{ site.baseurl }}/contact" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><span data-icon='ei-envelope' data-size='s'></span> Send me</a>
       {% else %}
       {% endif %}
       {% if site.author-twitter %}
@@ -51,10 +51,6 @@ layout: default
         {% endif %}
         {% if site.social-youtube %}
           <li class="c-social__item"><a href="https://youtube.com/{{ site.social-youtube }}" target="_blank"><div data-icon='ei-sc-youtube' data-size='s'></div></a></li>
-        {% else %}
-        {% endif %}
-        {% if site.social-vk %}
-          <li class="c-social__item"><a href="https://vk.com/{{ site.social-vk }}" target="_blank"><div data-icon='ei-sc-vk' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
         {% if site.social-linkedin %}

@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
   'use strict';
 
@@ -9,7 +9,7 @@ $(document).ready(function () {
   SimpleJekyllSearch({
     searchInput: document.getElementById('js-search-input'),
     resultsContainer: document.getElementById('js-results-container'),
-    json: '/search.json',
+    json: '/blog/search.json',
     searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
     noResultsText: '<li>No results found</li>'
   })
@@ -54,7 +54,7 @@ $(document).ready(function () {
 
     $(this).addClass('is-loading').text("Loading...");
 
-    $.get('/page/' + nextPage, function (data) {
+    $.get('/blog/page/' + nextPage, function(data) {
       var htmlData = $.parseHTML(data);
       var $articles = $(htmlData).find('article');
 
@@ -72,7 +72,7 @@ $(document).ready(function () {
   // Smooth scroll to the tags page
   ============================== */
 
-  $('.c-tag__list a').on('click', function (e) {
+  $('.c-tag__list a').on('click', function(e) {
     e.preventDefault();
 
     var currentTag = $(this).attr('href'),
@@ -88,10 +88,12 @@ $(document).ready(function () {
   // Scroll to top
   ======================= */
 
-  $('.c-top').click(function () {
-    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
+  $('.c-top').click(function() {
+    $('html, body').stop().animate({
+      scrollTop: 0
+    }, 'slow', 'swing');
   });
-  $(window).scroll(function () {
+  $(window).scroll(function() {
     if ($(this).scrollTop() > $(window).height()) {
       $('.c-top').addClass("c-top--active");
     } else {
