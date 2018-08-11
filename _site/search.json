@@ -1,0 +1,267 @@
+[
+  
+    {
+      "title"    : "Googlemancy &amp; Prayer Device",
+      "category" : "electronicrituals",
+      "tags"     : "Electronic Rituals",
+      "url"      : "/blog/2018/05/08/googlemancywearable/",
+      "date"     : "2018-05-08 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Chrome Extension",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/04/22/chromeextension/",
+      "date"     : "2018-04-22 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Gratitude forest",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/04/15/gratitudeforest/",
+      "date"     : "2018-04-15 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Random Number Generator",
+      "category" : "electronicrituals",
+      "tags"     : "Electronic Rituals",
+      "url"      : "/blog/2018/04/12/random/",
+      "date"     : "2018-04-12 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Soft Circuit",
+      "category" : "expressiveinterface",
+      "tags"     : "Expressive Interface",
+      "url"      : "/blog/2018/03/28/softcircuit/",
+      "date"     : "2018-03-28 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Automatic Writing",
+      "category" : "electronicrituals",
+      "tags"     : "Electronic Rituals",
+      "url"      : "/blog/2018/03/28/automaticwriting/",
+      "date"     : "2018-03-28 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Googlemancy",
+      "category" : "electronicrituals",
+      "tags"     : "Electronic Rituals",
+      "url"      : "/blog/2018/03/07/googlemancy/",
+      "date"     : "2018-03-07 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Flow Field Steering",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/03/04/flocking/",
+      "date"     : "2018-03-04 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Oracle Deck",
+      "category" : "electronicrituals",
+      "tags"     : "Electronic Rituals",
+      "url"      : "/blog/2018/02/21/tarotcards/",
+      "date"     : "2018-02-21 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Pulse Sensor Amped",
+      "category" : "tangibleInteraction",
+      "tags"     : "Tangible Interaction and Physical Computing",
+      "url"      : "/blog/2018/02/19/sensorreport/",
+      "date"     : "2018-02-19 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "System",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/02/15/system/",
+      "date"     : "2018-02-15 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Chequered Waves - Bees &amp; Bombs",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/02/11/beesbombs/",
+      "date"     : "2018-02-11 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Attractor",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/02/05/attractor/",
+      "date"     : "2018-02-05 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Random Walker",
+      "category" : "natureofcode",
+      "tags"     : "Nature of Code",
+      "url"      : "/blog/2018/01/30/randomwalker/",
+      "date"     : "2018-01-30 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Glove Game Controller",
+      "category" : "tangibleInteraction",
+      "tags"     : "Tangible Interaction and Physical Computing",
+      "url"      : "/blog/2018/01/30/gamecontroller/",
+      "date"     : "2018-01-30 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Seesaw Final",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/12/13/seesawfinal/",
+      "date"     : "2017-12-13 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Seesaw Design Progress - Part II",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/11/29/seesawfab/",
+      "date"     : "2017-11-29 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Seesaw Design Progress",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/11/16/seesawdesign/",
+      "date"     : "2017-11-16 00:00:00 -0500"
+    } ,
+  
+    {
+      "title"    : "Final Project Idea",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/10/31/finalIdeas/",
+      "date"     : "2017-10-31 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Mounting Motor",
+      "category" : "fabrication",
+      "tags"     : "Intro to Fabrication and Fabrication",
+      "url"      : "/blog/2017/10/17/motor/",
+      "date"     : "2017-10-17 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Two Material Project",
+      "category" : "fabrication",
+      "tags"     : "",
+      "url"      : "/blog/2017/10/07/materialstudy/",
+      "date"     : "2017-10-07 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Wifi LED Light",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/10/03/RGBLed/",
+      "date"     : "2017-10-03 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Jumping Cat Automata",
+      "category" : "PhysicalComputing",
+      "tags"     : "Intro to Fabrication, Fabrication, and Physical Computing",
+      "url"      : "/blog/2017/10/03/servoAutomata/",
+      "date"     : "2017-10-03 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Cat Automata",
+      "category" : "fabrication",
+      "tags"     : "Intro to Fabrication and Fabrication",
+      "url"      : "/blog/2017/10/03/automata/",
+      "date"     : "2017-10-03 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Storyboard",
+      "category" : "video&sound",
+      "tags"     : "Video and Sound",
+      "url"      : "/blog/2017/09/28/storyboard/",
+      "date"     : "2017-09-28 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Cardboard Automata",
+      "category" : "fabrication",
+      "tags"     : "Intro to Fabrication and Fabrication",
+      "url"      : "/blog/2017/09/27/laser-cutter/",
+      "date"     : "2017-09-27 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Tisch Building Sound Walk",
+      "category" : "video&sound",
+      "tags"     : "Video and Sound",
+      "url"      : "/blog/2017/09/22/soundWalk/",
+      "date"     : "2017-09-22 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Human Silhouettes",
+      "category" : "fabrication",
+      "tags"     : "Intro to Fabrication and Fabrication",
+      "url"      : "/blog/2017/09/18/fabMultiples/",
+      "date"     : "2017-09-18 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "The Ecstasy Of Influence",
+      "category" : "video&sound",
+      "tags"     : "Video and Sound",
+      "url"      : "/blog/2017/09/14/readingweekone/",
+      "date"     : "2017-09-14 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Soundwalk Reaction",
+      "category" : "video&sound",
+      "tags"     : "Video and Sound",
+      "url"      : "/blog/2017/09/14/videosound/",
+      "date"     : "2017-09-14 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Creative Switch",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/09/12/switch/",
+      "date"     : "2017-09-12 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Physical Interaction",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/09/12/pcomp/",
+      "date"     : "2017-09-12 00:00:00 -0400"
+    } ,
+  
+    {
+      "title"    : "Ribbon Bracelet Flashlight",
+      "category" : "fabrication",
+      "tags"     : "Intro to Fabrication and Fabrication",
+      "url"      : "/blog/2017/09/10/fabrication/",
+      "date"     : "2017-09-10 00:00:00 -0400"
+    } 
+  
+]
