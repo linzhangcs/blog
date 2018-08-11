@@ -1,53 +1,16 @@
-title:             Welcome to Lin's Blog :)
-description:       This blog is a journal for Lin's 2 years at NYU, ITP and beyond.
-permalink:         ':title/'
-baseurl:           "/blog" # the subpath of your site, e.g. /blog
-url:               "https://linzhangcs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# User config
+author: "Pineapple"
+tagline: "Pineapple Certfied Jekyll Theme"
+description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
+keywords: "Pineapple, Pineapple Pizza, Pineapple House"
+email: "pineapple@example.com"
+linkedin: "https://www.linkedin.com/"
+twitter: "https://twitter.com/"
+github: "https://github.com/"
 
-# Author
-author-name:       Lin Zhang
-author-image:      lz.jpg
-author-job:        Graduate Student
-author-email:      lz1414@nyu.edu # Add your email for contant form.
-author-twitter:    # Add your twitter account
-about-author:      I am a graduate student and front-end developer. Just like Javascript, I am weird and awesome :) # add description
-
-# Social settings
-social-twitter:
-social-facebook:
-social-github:     linzhangcs
-social-pinterest:
-social-instagram:  linzhangitp
-social-youtube:
-social-linkedin:   lin-zhang-7453b639
-
-# Newsletter
-mailchimp:         # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
-
-# Google Analytics
-google-analytics:  # Add your identifier. For example UA-99631805-1
-
-# Comment Section (Disqus)
-disqus-identifier: linzhang # Add your shortname for Disqus Comment. For example mr-brown
-
-# Build settings
-markdown:          kramdown
-permalink:         /:year/:month/:day/:title/
-plugins:
-  - jekyll-paginate
-
-paginate:          10
-paginate_path:     "/page/:num"
-
-include:
-  - _pages
-
+# Site config
+baseurl: "/pineapple"
+highlighter: rouge
 sass:
-  sass_dir:        _sass
-  style:           compressed
-
-# Exclude from processing.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+  sass_dir: assets/scss
+  style: compressed
