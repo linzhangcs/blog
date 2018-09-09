@@ -28,6 +28,10 @@ $(document).ready(function() {
 
   $('.c-nav__list > .c-nav__item').click(function() {
     $('.c-nav__list > .c-nav__item').removeClass('is-active');
+    if ($(this)[0].innerText === 'CATEGORIES') {
+      window.location.href = "/blog/tags";
+      return;
+    }
     $(this).addClass('is-active');
     if ($('.c-nav__item:last-child').hasClass('is-active')) {
       $('.c-posts').css('display', 'none').removeClass('o-opacity');
