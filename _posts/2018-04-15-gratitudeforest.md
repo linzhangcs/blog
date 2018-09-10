@@ -30,7 +30,7 @@ Forest is a productivity app that helps user stop checking their phone and focus
 
 Gratitude forest combines the two projects. It utilizes tree and growth from the Forest app but applied to a different context. Instead of sending a kind thought directly to a recipient, it creates a positive space.
 
-## context
+## Context
 
 This project can be made as a web application. However; I think it will be more integrated into users' lives if it's a browser extension. Because it removes the obstacle for users to remember and go to a url and practice gratitude journaling. Alternatively, it becomes a reminder whenever the users use the internet.
 
