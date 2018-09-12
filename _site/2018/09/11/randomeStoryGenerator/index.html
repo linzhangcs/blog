@@ -5,9 +5,9 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>Pulse Sensor Amped</title>
-  <meta name='description' content="Pulse SensorHow does it work?">
-  <link rel='canonical' href="http://localhost:4000/blog/2018/02/19/sensorreport/">
+  <title>Random Story Generator</title>
+  <meta name='description' content="There is a story I learned as a first grader in china. It is a very famous story, its title has become an idiom - “塞翁失马，焉知非福”. The closet translation in mean...">
+  <link rel='canonical' href="http://localhost:4000/blog/2018/09/11/randomeStoryGenerator/">
   <link rel='alternate' type='application/rss+xml' title='Welcome to Lin's Blog :)' href="http://localhost:4000/blog/feed.xml">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
@@ -90,140 +90,42 @@
       </div>
     </header>
     
-    <div class="c-article__image o-opacity" style="background-image: url( /blog/images/tangible/biometric_in_use.jpg )"></div>
     
     <div class="c-wrap-content">
       <header class="c-article__header">
-        <h1 class="c-article__title">Pulse Sensor Amped</h1>
+        <h1 class="c-article__title">Random Story Generator</h1>
         <div class="c-article__date">
-          <span>2018, Feb 19</span>
+          <span>2018, Sep 11</span>
         </div>
       </header>
-      <h2 id="pulse-sensor">Pulse Sensor</h2>
-<h4 id="how-does-it-work">How does it work?</h4>
+      <p>There is a story I learned as a first grader in china. It is a very famous story, its title has become an idiom - “塞翁失马，焉知非福”. The closet translation in meaning is a blessing in disguise or every cloud has a silver lining. I want to use it a the structure for my random story generator.</p>
 
-<p>We are all very familiar with measuring heart rate manually - just think of doctor visits where the doctor or nurse listen to our pulse and count heart beats per minute. This method works because the expansion and contraction of blood vessel when blood enters and leaves the heart.</p>
+<p>The basic translation of this story is the following:</p>
 
-<p>How does a pulse sensor measure heart rate? That utilizes a different method called photoplethysmography (or PPG). It is based on the fact oxygenated and de-oxygenated blood have different optical properties. By detecting a change in the absorbance or reflectance of light emitted onto the skin, we can measure pulse. Pulse sensors have up to two green LEDs flash onto the skin, and a light sensor measures the green light absorption and detect the peak. This is the basic idea of how optical pulse sensor work. If you have used any of the fitness tracker wearables on the market, such like <a href="https://support.apple.com/en-us/HT204666">Apple Watch</a> and <a href="https://www.fitbit.com/technology">Fitbit</a>, you can this method in action.</p>
+<p>Long times ago there is an old man named Sai Weng lives near by the great wall. One day, he loses a great horse. His neighbors and relatives hear the news and come over to comfort him. However, He is not anxious about it. He laughs and says: “The horse is lost. How does anyone know if this is a not good thing?”
+After a few months pass, Sai Weng’s horse returns to his home. Also brings another great horse back with it.
+This news surprised everyone in the village, and everyone congratulates him. But Sai Weng is not so happy about it. He says to everyone: “There is nothing to celebrate. Who can say this is not a possible disaster?”
+After a few days, Sai Weng’s only son wants to ride the wild horse. The wild horse refuses and kicks his son off of him. The son falls and breaks his leg. Everyone hears the news, and comes over to comfort him. Sai Weng is not sad about the event, he says: “Maybe this is a good thing.”
+During his son’s recovery, a war breaks out at the border. Young men of the village are drafted into the army. Most of them die on the frontline, but Sai Weng’s son is alive, because his broken leg.</p>
 
-<p><img src="/blog/images/tangible/PPG-diagram-optical-heart.jpg" alt="pulse sensor image" /></p>
-
-<p><img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/applewatch/watch-measure-sensors.png" alt="apple watch" />
-<strong><em>Apple Watch Tech Spec</em></strong></p>
-
-<h2 id="description-of-pulse-sensor-amped">Description of Pulse Sensor Amped</h2>
-
-<p>The pulse sensor amped measures heart-rate based on PPG. It is an easy-to-use version of pulse sensor for Arduino. It makes incorporating live heart-rate data into projects straightforward. The kit comes with finger strap and ear clip. That provides ways to place the sensor and measure heart rate. We could use finger strap or attach ear clip, and then plug the sensor into Arduino. It also works with either a 3V or 5V Arduino.
-<img src="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/raw/master/pics/finger.jpg" alt="finger reading" /></p>
-
-<p><img src="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/raw/master/pics/earclip.jpg" alt="earlobe reading" /></p>
-
-<p>This sensor combines an optical heart rate sensor with amplification and noise cancellation circuitry. The improvements make the heart rate reading faster and more reliable. See sensor schematic:</p>
-
-<p><img src="/blog/images/tangible/schematic_sensor.png" alt="sensor schematic" /></p>
-
-<p>Also, the Pulse Sensor creators made a complementary <a href="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Processing_Visualizer">Processing visualization software</a> for this hardware. Using the visualization software, one can instantly see output of the sensor and also use it for troubleshooting.</p>
-
-<p><img src="https://cdn-shop.adafruit.com/970x728/1093-06.jpg" alt="sensor" />
-<img src="https://cdn-shop.adafruit.com/970x728/1093-04.jpg" alt="sensor" />
-<img src="https://cdn-shop.adafruit.com/970x728/1093-07.jpg" alt="sensor" />
-<img src="https://cdn-shop.adafruit.com/970x728/1093-05.jpg" alt="sensor" /></p>
-
-<h2 id="data-sheet">Data Sheet</h2>
-
-<p>The full data sheet can be found on the <a href="https://pulsesensor.com/pages/open-hardware">pulse sensor official website</a>. Here are some of stats about this sensor:</p>
-
-<ul>
-  <li>Diameter = 0.625” (~16mm)</li>
-  <li>Overall thickness = 0.125” (~3mm)</li>
-  <li>Cable length = 24” (~609mm)</li>
-  <li>Voltage = 3V to 5V</li>
-  <li>Current consumption = ~4mA at 5V</li>
-</ul>
-
-<p>This sensor uses Ambient light Sensor (<a href="http://www.avagotech.com/docs/AV02-1169EN">APDS-9008</a>) from Avago. Also green bright reverse mount LED from Kingbright (<a href="http://www.kingbrightusa.com/images/catalog/SPEC/am2520zgc09.pdf">AM2520ZGC09</a>), added diode protection in case when it is plugged in backwards. Active filter and amplifier to change the pulse waveform.</p>
-
-<p><strong><em>Reading Before added filter and amplifier:</em></strong>
-<img src="https://cdn.shopify.com/s/files/1/0100/6632/files/pulseWaveformOldVersion_large.jpg?619" alt="before reading" />
-<strong><em>After:</em></strong>
-<img src="https://cdn.shopify.com/s/files/1/0100/6632/files/pulseWaveformAmpdVersion_large.jpg?619" alt="after reading" /></p>
-<h2 id="sample-projects">Sample Projects</h2>
-
-<p>There are different types of projects that can incorporate live heart rate as part of its interactivity, such as wearables fitness tracker, meditation trainer, and sound and light installation.</p>
-
-<h4 id="meditation-trainer"><a href="https://learn.adafruit.com/heart-rate-variability-sensor">Meditation Trainer</a></h4>
-<p><img src="/blog/images/tangible/biometric_in_use.jpg" alt="mediation" /></p>
-
-<p>This project in particular points out a different way of using pulse data.
-When we think of pulses, we normally think it is likely to be pretty constant values. However, our interval between beats (IBI) fluctuates a lot, and the variance between heart beat interval is known as heart rate variability (HRV). When we breath in a certain pattern, our cardiac rhythms can also fall in sync and HRV becomes a sine wave. Meditation Trainer is a project that uses live heart-rate and based on this interesting fact to train the user to breath better and reduce anxiety.
-<img src="/blog/images/tangible/biometric_hrv_stressed.jpg" alt="HRV" />
-<strong><em>HRV pattern of someone that is feeling stressed</em></strong>
-<img src="/blog/images/tangible/biometric_hrv_calm.jpg" alt="HRV" />
-<strong><em>This is the goal of meditation trainer - calm breathing pattern</em></strong></p>
-
-<h4 id="list-of-creative-projects-using-pulse-sensor-amped">List of creative projects using pulse sensor amped</h4>
-<ul>
-  <li>Interactive mediation game: <a href="https://ellennickles.com/itpblog/2017/12/3/weeks-14-and-15-heart-sync">Heart Sync</a></li>
-  <li>Light installation: <a href="https://learn.adafruit.com/pulse-room">Pulse Room</a></li>
-  <li>Physical installation: <a href="https://www.sparkfun.com/videos#all/ZgtvEsSGMJ8/124">Fall In Line</a></li>
-</ul>
-
-<h2 id="strengths-and-weaknesses">Strengths and Weaknesses</h2>
-<p>Strengths:</p>
-<ul>
-  <li>Easy setup for use</li>
-  <li>Small frame that can fit in most projects, good for wearables.</li>
-  <li>It has a complementary software and well maintained <a href="https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino">library</a>.</li>
-</ul>
-
-<p>Weaknesses:</p>
-<ul>
-  <li>The retail price is around $25. It is expensive; especially knowing its components.</li>
-  <li>The circuit board is exposed, and need to prepare the sensor from body naturally produced sweat and oil. Otherwise, the board can be shorted by touching the solder points. The current solution is to use a thin film of vinyl on the sensor side. The back side can be protected by using a velcro dot or hot glue. Detailed instruction can be found on the <a href="https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PulseSensorAmpedGettingStartedGuide.pdf">starting guide</a></li>
-  <li>The functionality is limited.</li>
-  <li>The code involved for getting good reading can be complicated.</li>
-</ul>
-
-<h2 id="example-schematic-and-microcontroller-code">Example Schematic and Microcontroller Code</h2>
-
-<p>Here is the schematic and the code of using NeoPixels to display Pulse</p>
-
-<p><img src="https://cdn-learn.adafruit.com/assets/assets/000/027/919/original/biometric_Pulse-Sensor_final.jpg?1443353162" alt="neopixels display" /></p>
-
-<script src="https://gist.github.com/linzhangcs/a9b7a6bb633c2f04ac1b962d09a5fa67.js"></script>
-
-<script src="https://gist.github.com/linzhangcs/9b3cc5a3e5fdb02cf0402bd169d63b28.js"></script>
-
-<h2 id="citations">Citations</h2>
-<ul>
-  <li>Information and links about how Pulse Sensor work found on <a href="https://www.quora.com/How-do-optical-heart-rate-sensors-work">Quora</a></li>
-  <li>Pulse Sensor Amped project kinks and images found on <a href="https://www.adafruit.com/product/1093">Adafruit Pulse Sensor Amped</a></li>
-  <li>Information on Pulse Sensor Amped found on the <a href="https://pulsesensor.com">official website</a></li>
-  <li>Data Sheet found <a href="https://media.digikey.com/pdf/Data%20Sheets/Pulse%20PDFs/PulseSensorAmpedGettingStartedGuide.pdf">here</a></li>
-  <li>Schematic and Code found <a href="https://learn.adafruit.com/pulse-sensor-displayed-with-neopixels/overview">here</a></li>
-</ul>
+<p><a href="https://editor.p5js.org/linzhang/sketches/HkR84xCvm">Here is the link to my sketch</a></p>
 
       <div class="c-article__footer u-clearfix">
         <div class="c-article__tag">
           
-          <a href="/blog/tags#Tangible Interaction">&#35; Tangible Interaction</a>
-          
-          <a href="/blog/tags#Physical Computing">&#35; Physical Computing</a>
+          <a href="/blog/tags#Computational Approaches to Narrative">&#35; Computational Approaches to Narrative</a>
           
         </div>
         <div class="c-article__share">
-          <a href="https://twitter.com/intent/tweet?text=Pulse%20Sensor%20Amped&url=http://localhost:4000/2018/02/19/sensorreport/" title="Share
+          <a href="https://twitter.com/intent/tweet?text=Random%20Story%20Generator&url=http://localhost:4000/2018/09/11/randomeStoryGenerator/" title="Share
           on Twitter" rel="nofollow" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/02/19/sensorreport/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/02/19/sensorreport/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/09/11/randomeStoryGenerator/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/09/11/randomeStoryGenerator/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
         </div>
       </div>
       <div class="c-recent-post">
         <h4 class="c-recent__title">You might also enjoy</h4>
         <div class="c-recent__box">
-        
-        
-        
         
         
           <div class="c-recent__item">
@@ -244,6 +146,18 @@ When we think of pulses, we normally think it is likely to be pretty constant va
               <h4><a href="/blog//2018/09/10/avatars/">Avatar Creation Systems</a></h4>
               <div class="c-recent__date">
                 <time datetime="2018-09-10T00:00:00-04:00">September 10, 2018</time>
+              </div>
+            </div>
+          </div>
+        
+        
+        
+          <div class="c-recent__item">
+            <a class="c-recent__image" href="/blog//2018/05/08/googlemancywearable/" style="background-image: url( /blog/images/electricRitual/result.png)"></a>
+            <div class="c-recent__footer">
+              <h4><a href="/blog//2018/05/08/googlemancywearable/">Googlemancy & Prayer Device</a></h4>
+              <div class="c-recent__date">
+                <time datetime="2018-05-08T00:00:00-04:00">May 8, 2018</time>
               </div>
             </div>
           </div>

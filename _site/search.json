@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Random Story Generator",
+      "category" : "",
+      "tags"     : "Computational Approaches to Narrative",
+      "url"      : "/blog/2018/09/11/randomeStoryGenerator/",
+      "date"     : "2018-09-11 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Energy System - Entropy",
       "category" : "",
       "tags"     : "The Temporary Expert",
