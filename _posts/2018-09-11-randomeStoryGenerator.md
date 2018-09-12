@@ -9,7 +9,7 @@ image:
 tags: [Computational Approaches to Narrative]
 ---
 
-There is a story I learned as a first grader in china. It is a very famous story, its title has become an idiom - "塞翁失马，焉知非福". The closet translation in meaning is a blessing in disguise or every cloud has a silver lining. I want to use it a the structure for my random story generator.
+There is a story I learned as a first grader in china. It is a very famous story, its title has become an idiom - "塞翁失马，焉知非福". The closest translation in meaning is a blessing in disguise or every cloud has a silver lining. I want to use its structure for my random story generator.
 
 The basic translation of this story is the following:
 
