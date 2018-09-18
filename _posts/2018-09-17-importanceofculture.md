@@ -15,4 +15,4 @@ That opinion is not something I dreamed up; I have heard harsh comments in real 
 
 It calls out this behavior of showing contempt as a currency. A lot of developers I have met use contempt as a signal to others they are a part of the serious developers' club. This Contempt Culture shows up in all aspects of group dynamics. It does not stop at hating on a language or a operating system. It manifests as a general attitude. This culture gives permission for everyone in it to openly put others down. And this is a partial reason for so many developers have impostor syndrome. Developer community is ruthless. If you use the "wrong" language you will be judge harshly for it, let alone not be "competent".
 
-Despite this, I still want to be a developer. I enjoy problem solving and knowing a system. It is fun. I will do my best to stop this attitude spread, starting with myself.
+Despite this, I still want to be a developer. I enjoy problem solving and knowing a system. It is fun and rewarding. I will do my best to stop this attitude from spreading, starting with myself.
