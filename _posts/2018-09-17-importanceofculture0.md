@@ -5,6 +5,6 @@ date: 2018-09-17
 author: Lin Zhang
 layout: post
 comments: true
-image: oss/hatingon.jpg
+image: 
 tags: [Open Source Studio]
 ---
