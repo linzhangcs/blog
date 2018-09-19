@@ -26,7 +26,8 @@ After that test run, we decided to project a face onto our face to create a new 
 
 ![Mengzhen Swift]({{site.baseurl}}/images/magicWindows/test-face-two.JPG)
 
-![Tay]
+![Lin Swift]({{site.baseurl}}/images/magicWindows/test-face.JPG)
+
 After testing out Taylor's face, we wanted to try out a collection of faces and using our voice as user input.
 
 The tech stack we used is
