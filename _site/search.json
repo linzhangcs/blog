@@ -9,6 +9,14 @@
     } ,
   
     {
+      "title"    : "Changing faces - projection mapping",
+      "category" : "",
+      "tags"     : "Magic Windows",
+      "url"      : "/blog/2018/09/19/projectionmapping/",
+      "date"     : "2018-09-19 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Contempt in Developer Culture",
       "category" : "",
       "tags"     : "Open Source Studio",
@@ -35,7 +43,7 @@
     {
       "title"    : "GIF of my life",
       "category" : "",
-      "tags"     : "Magic Window",
+      "tags"     : "Magic Windows",
       "url"      : "/blog/2018/09/11/linsgif/",
       "date"     : "2018-09-11 00:00:00 -0400"
     } ,

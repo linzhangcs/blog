@@ -5,9 +5,9 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>Googlemancy</title>
-  <meta name='description' content="For my “-omancy” divination invention, I was inspired by Google’s “I’m feeling lucky” option. I remember the first time when I used Google. I didn’t quite un...">
-  <link rel='canonical' href="http://localhost:4000/blog/2018/03/07/googlemancy/">
+  <title>Changing faces - projection mapping</title>
+  <meta name='description' content="I partnered with Mengzhen for this project.">
+  <link rel='canonical' href="http://localhost:4000/blog/2018/09/19/projectionmapping/">
   <link rel='alternate' type='application/rss+xml' title='Welcome to Lin's Blog :)' href="http://localhost:4000/blog/feed.xml">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
@@ -90,73 +90,57 @@
       </div>
     </header>
     
+    <div class="c-article__image o-opacity" style="background-image: url( /blog/images/magicWindows/test-projection.JPG )"></div>
     
     <div class="c-wrap-content">
       <header class="c-article__header">
-        <h1 class="c-article__title">Googlemancy</h1>
+        <h1 class="c-article__title">Changing faces - projection mapping</h1>
         <div class="c-article__date">
-          <span>2018, Mar 07</span>
+          <span>2018, Sep 19</span>
         </div>
       </header>
-      <p>For my “-omancy” divination invention, I was inspired by Google’s “I’m feeling lucky” option. I remember the first time when I used Google. I didn’t quite understand the point of the second button on the main page. Even after trying it, I still only use the search button. But it did leave an impression on my, because its deterministic and predictive nature. It definitely works as a prophecy about a specific request.</p>
+      <p>I partnered with Mengzhen for this project.</p>
 
-<p><img src="/blog/images/electricRitual/luckyscreen.png" alt="I am feeling lucky" /></p>
+<p>Initially we wanted to project markup to users’ face and they can switch to different set of markup looks.
+We did a quick test run for this idea. We found out the projection on the face is too bright for the idea to work.</p>
 
-<p>For my project, I want to modify this divination method. As a way to start, I googled about “Googlemancy”. Interestingly, there are people already <a href="http://occultcorpus.com/forums/index.php?/topic/14136-googlemancy/">proposed</a> it. Here are list of methods:</p>
+<p><img src="/blog/images/magicWindows/markup.JPG" alt="markup test" /></p>
 
-<h4 id="asking-the-question">Asking the Question:</h4>
+<p>After that test run, we decided to project a face onto our face to create a new look. Mengzhen picked Taylor Swift and we projected her face on our face. Here is the results:</p>
 
-<ul>
-  <li>Method One: Type in your full question into the search box</li>
-  <li>Method Two: Type in only the keywords of the question</li>
-</ul>
+<p><img src="/blog/images/magicWindows/test-projection.JPG" alt="projection" /></p>
 
-<h4 id="getting-an-answer">Getting an Answer:</h4>
+<p><img src="/blog/images/magicWindows/setup.JPG" alt="projection setup" /></p>
 
-<p>Method One: “I’m Feeling Lucky”  It will take you to the primary result for the search query. Once there read the page and divine your answer from the result.</p>
+<p><img src="/blog/images/magicWindows/test-face-two.JPG" alt="Mengzhen Swift" /></p>
 
-<p>Method Two: Method 23  Ask your question then click the “Google Search” then count to the 23rd entry within the SERP (Search Engine Rank Position). Alternatively you can browse your way to page twenty three and take the top result from that page. 23 is a big number in Chaos Circles so that is the number I have used here. Feel free to use any special number that has a significance to you.</p>
+<p><img src="/blog/images/magicWindows/test-face.JPG" alt="Lin Swift" /></p>
 
-<p>Method Three: Google Images  This method is just like the previous method but rather then divining from the text or overall page you will be interpreting only the image results.</p>
+<p>After testing out Taylor’s face, we wanted to try out a collection of faces and using our voice as user input.</p>
 
-<p>Using Google Images may offer the best result if you are using the second method for asking the question (keywords).
-Alternatively you can simply take all of the images on the first (or 23rd) page and figure out your answer by taking bits and pieces from all of the thumbs shown on the first page.
-Again I feel it’s best to pick one method and stick to that with only changing when there is no reply. Though some may feel that no results found <strong>IS</strong> the answer, and there is certainly nothing wrong with that. Maybe rephrase the question and ask again.</p>
+<p>The tech stack we used is</p>
+<ol>
+  <li>Processing</li>
+  <li>Keystone</li>
+  <li>Web sockets - <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">webkitSpeechRecognition</a></li>
+</ol>
 
-<h3 id="advanced-methods">Advanced methods:</h3>
+<p>Here are the videos</p>
+<iframe src="https://www.youtube.com/embed/Czpe1D-LkcE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
-<h4 id="asking-the-question-1">Asking the Question:</h4>
-
-<ul>
-  <li>Method Three (sigilization): Break down your Question as you would a Statement of Intent in Sigilization. Use one of the previous methods for reading the results, or check below for a new one.</li>
-</ul>
-
-<h4 id="getting-an-answer-1">Getting an answer:</h4>
-
-<p>Method Four (<a href="https://www.youtube.com/watch?v=GZ019mza4RA">sigilization</a>): With the new “SMART” search on Google, you will see INSTANT results and these will change with each and every additional letter of your query</p>
-
-<p>1: Pick a number (5?) and list all the links till you are done. Read these as a tarot spread.</p>
-
-<p>2: Use the varied results to create an anagram of sorts. Use the fifth(?) results and pull off the fifth letter of each additional letter. This will either spell out your answer directory, or give you an additional puzzle to ponder.</p>
-
-<p>Also here is comparison between Googlemancy to <a href="https://en.wikipedia.org/wiki/Bibliomancy">Bibliomancy</a>
-There is a website dedicated to <a href="http://www.thechurchofgoogle.org/googleprayers/">Googlism</a>, worship Google as a god.</p>
-
-<p>I decide to implement answer method two using Google Custom Search API. I will ask user to input their birthday and use that as a way to pick a number.</p>
-
-<p>Here is my <a href="https://github.com/linzhangcs/googlemancy/">code repo</a>. You can try the website <a href="https://linzhangcs.github.io/googlemancy/">here</a></p>
+<iframe src="https://www.youtube.com/embed/QWDML2B-2tc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
       <div class="c-article__footer u-clearfix">
         <div class="c-article__tag">
           
-          <a href="/blog/tags#Electronic Rituals">&#35; Electronic Rituals</a>
+          <a href="/blog/tags#Magic Windows">&#35; Magic Windows</a>
           
         </div>
         <div class="c-article__share">
-          <a href="https://twitter.com/intent/tweet?text=Googlemancy&url=http://localhost:4000/2018/03/07/googlemancy/" title="Share
+          <a href="https://twitter.com/intent/tweet?text=Changing%20faces%20-%20projection%20mapping&url=http://localhost:4000/2018/09/19/projectionmapping/" title="Share
           on Twitter" rel="nofollow" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/03/07/googlemancy/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/03/07/googlemancy/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/09/19/projectionmapping/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/09/19/projectionmapping/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
         </div>
       </div>
       <div class="c-recent-post">
@@ -177,11 +161,11 @@ There is a website dedicated to <a href="http://www.thechurchofgoogle.org/google
         
         
           <div class="c-recent__item">
-            <a class="c-recent__image" href="/blog//2018/09/19/projectionmapping/" style="background-image: url( /blog/images/magicWindows/test-projection.JPG)"></a>
+            <a class="c-recent__image" href="/blog//2018/09/17/importanceofculture/" style="background-image: url( /blog/images/oss/hatingon.jpg)"></a>
             <div class="c-recent__footer">
-              <h4><a href="/blog//2018/09/19/projectionmapping/">Changing faces - projection mapping</a></h4>
+              <h4><a href="/blog//2018/09/17/importanceofculture/">Contempt in Developer Culture</a></h4>
               <div class="c-recent__date">
-                <time datetime="2018-09-19T00:00:00-04:00">September 19, 2018</time>
+                <time datetime="2018-09-17T00:00:00-04:00">September 17, 2018</time>
               </div>
             </div>
           </div>
@@ -189,9 +173,9 @@ There is a website dedicated to <a href="http://www.thechurchofgoogle.org/google
         
         
           <div class="c-recent__item">
-            <a class="c-recent__image" href="/blog//2018/09/17/importanceofculture/" style="background-image: url( /blog/images/oss/hatingon.jpg)"></a>
+            <a class="c-recent__image" href="/blog//2018/09/17/3dscan/" style="background-image: url( /blog/images/performativeAvatar/scan.JPG)"></a>
             <div class="c-recent__footer">
-              <h4><a href="/blog//2018/09/17/importanceofculture/">Contempt in Developer Culture</a></h4>
+              <h4><a href="/blog//2018/09/17/3dscan/">3D Scan</a></h4>
               <div class="c-recent__date">
                 <time datetime="2018-09-17T00:00:00-04:00">September 17, 2018</time>
               </div>
