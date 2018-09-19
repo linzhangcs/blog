@@ -14,6 +14,8 @@ I partnered with Mengzhen for this project.
 Initially we wanted to project markup to users' face and they can switch to different set of markup looks.
 We did a quick test run for this idea. We found out the projection on the face is too bright for the idea to work.
 
+![markup image]({{site.baseurl}}/images/magicWindows/p1.png)
+
 ![markup test]({{site.baseurl}}/images/magicWindows/markup.JPG)
 
 After that test run, we decided to project a face onto our face to create a new look. Mengzhen picked Taylor Swift and we projected her face on our face. Here is the results:
@@ -24,8 +26,7 @@ After that test run, we decided to project a face onto our face to create a new 
 
 ![Mengzhen Swift]({{site.baseurl}}/images/magicWindows/test-face-two.JPG)
 
-![Lin Swift]({{site.baseurl}}/images/magicWindows/test-face.JPG)
-
+![Tay]
 After testing out Taylor's face, we wanted to try out a collection of faces and using our voice as user input.
 
 The tech stack we used is
