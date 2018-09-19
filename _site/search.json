@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "There’s No Such Thing As a Dragon",
+      "category" : "",
+      "tags"     : "Computational Approaches to Narrative",
+      "url"      : "/blog/2018/09/19/thereisnosuchthingasadragon/",
+      "date"     : "2018-09-19 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Contempt in Developer Culture",
       "category" : "",
       "tags"     : "Open Source Studio",

@@ -5,9 +5,9 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>Chrome Extension</title>
-  <meta name='description' content="Final Project Proposal: Gratitude forest">
-  <link rel='canonical' href="http://localhost:4000/blog/2018/04/22/chromeextension/">
+  <title>There’s No Such Thing As a Dragon</title>
+  <meta name='description' content="There’s No Such Thing As a Dragon is a book I read after it got referenced in a book I am currently reading. It is a children book and its message is very re...">
+  <link rel='canonical' href="http://localhost:4000/blog/2018/09/19/thereisnosuchthingasadragon/">
   <link rel='alternate' type='application/rss+xml' title='Welcome to Lin's Blog :)' href="http://localhost:4000/blog/feed.xml">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
@@ -90,100 +90,35 @@
       </div>
     </header>
     
-    <div class="c-article__image o-opacity" style="background-image: url( /blog/images/noc/background.png )"></div>
+    <div class="c-article__image o-opacity" style="background-image: url( /blog/images/narrative/nosuchthingdragon05.jpg )"></div>
     
     <div class="c-wrap-content">
       <header class="c-article__header">
-        <h1 class="c-article__title">Chrome Extension</h1>
+        <h1 class="c-article__title">There’s No Such Thing As a Dragon</h1>
         <div class="c-article__date">
-          <span>2018, Apr 22</span>
+          <span>2018, Sep 19</span>
         </div>
       </header>
-      <h2 id="final-project-proposal-gratitude-forest">Final Project Proposal: Gratitude forest</h2>
+      <p>There’s No Such Thing As a Dragon is a book I read after it got referenced in a book I am currently reading. It is a children book and its message is very remarkable.</p>
 
-<p>I am combining Nature of code’s final with hacking the browser’s. Here is a blog entry on the <a href="https://linzhangcs.github.io/blog/natureofcode/2018/04/15/gratitudeforest.html">project proposal</a>.</p>
-
-<h2 id="reverse-engineer---gratitude-flow">Reverse Engineer - Gratitude Flow</h2>
-
-<p>As a part of my final project, I want to encourage chrome user to practice gratitude journaling. I searched the chrome store for extensions that similar. I want to reverse engineer an extension as a starting point. I found an extension called <a href="https://chrome.google.com/webstore/detail/gratitude-flow-happiness/bemnjoaibicimpimbigfmhoadacfaian">Gratitude Flow</a>, its message storing and sharing functionalities are some good entry points for what I want to do for my extension.</p>
-
-<h4 id="what-permissions-does-it-require">What permissions does it require?</h4>
-
-<p>It requires storage, alarms, unlimitedStorage, geolocation, and browser activity on https://<em>.gratitudeflow.io/</em>.</p>
-
-<h4 id="does-it-have-a-browser-action-page-action-content-scripts-background-scripts-other">Does it have a browser action, page action, content script(s), background scripts, other?</h4>
-
-<p>Because this extension let users type in their thankful messages, save them, and share them. Multiple event scripts are included in the project, here is a screen capture of the scripts:
-<img src="/blog/images/noc/background.png" alt="background" /></p>
-
-<p>The file structure of this project is well separated. So if anyone look into this project, he or she can identify which file to change for a certain functionality. Also there is something different about this project. Because it an extension that replaces the new tab page but not any other pages, it does not have content scripts.</p>
-
-<h4 id="what-chrome-apis-does-it-use">What Chrome APIs does it use?</h4>
-
-<p>It uses the following Chrome APIs:</p>
-<ol>
-  <li>alarms - schedule code to run periodically or at a specified time in the future.</li>
-  <li>storage - store, retrieve, and track changes to user data.</li>
-  <li>permissions - request declared optional permissions at run time rather than install time, os users understand why the permissions are needed and grant only those that are necessary.</li>
-  <li>tabs - interact with the browser’s tab system. You can use this API to create, modify, and rearrange tabs in the browser.</li>
-  <li>browserAction - put icons in the main Google Chrome toolbar to the right of the address bar. A browser action can have an icon, a tooltip, a badge, and a popup.</li>
-  <li>runtime - retrieve the background page, return details about the manifest, and listen for and respond to events in the extension lifecycle.</li>
-  <li>notifications -  create rich notifications using templates and show these notifications to users in the system tray.</li>
-</ol>
-
-<h4 id="in-your-own-words-how-does-it-work">In your own words, how does it work?</h4>
-
-<p>This extension works by replacing the default new tab page to main.html. This page is the interface page users see and interact with. The extension includes a lot of javascript based on events to store and retrieve user submitted messages.</p>
-
-<h4 id="what-sites-is-it-active-on">What site(s) is it active on?</h4>
-
-<p>It is only active on the new tab page.</p>
-
-<h4 id="find-something-else-in-the-manifest-look-it-up-in-the-manifest-docs-and-explain-what-it-does">Find something else in the manifest, look it up in the manifest docs, and explain what it does.</h4>
-
-<p>Here are three lines in the manifest I did not know and looked up:</p>
-<ol>
-  <li>“background:{“persistent”: false}”</li>
-  <li>“chrome_url_overrides”: {
-     “newtab”: “main.html”
- }</li>
-  <li>“content_security_policy”: “script-src ‘self’ https://ssl.google-analytics.com https://embed.doorbell.io https://api.survicate.com/assets/survicate.js ; object-src ‘self’”,</li>
-</ol>
-
-<p>For number one, the persistent key makes event page rather than background page. The difference between the two seems to be event pages are loaded only needed.</p>
-
-<p>For number two, chrome let developers substitute HTML files for default pages provided by chrome. An extension can replace bookmark manage, history, and new tab pages. Also an extension can override only one of those pages.</p>
-
-<p>As for number three, this setting refers to the concept of <a href="https://en.wikipedia.org/wiki/Content_Security_Policy">Content Security Policy</a>. This setting works as a black/whitelisting for resources loaded or executed by extensions. Therefore, the setting above whitelisted the script source and object source from self and two urls.</p>
+<p>The storyline is linear. I thought it would fit the message of the story and drives it home if I provide some action selections for the user. So I made a linear twine story but with multiple choices.</p>
 
       <div class="c-article__footer u-clearfix">
         <div class="c-article__tag">
           
-          <a href="/blog/tags#Nature of Code">&#35; Nature of Code</a>
+          <a href="/blog/tags#Computational Approaches to Narrative">&#35; Computational Approaches to Narrative</a>
           
         </div>
         <div class="c-article__share">
-          <a href="https://twitter.com/intent/tweet?text=Chrome%20Extension&url=http://localhost:4000/2018/04/22/chromeextension/" title="Share
+          <a href="https://twitter.com/intent/tweet?text=There%E2%80%99s%20No%20Such%20Thing%20As%20a%20Dragon&url=http://localhost:4000/2018/09/19/thereisnosuchthingasadragon/" title="Share
           on Twitter" rel="nofollow" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/04/22/chromeextension/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/04/22/chromeextension/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/09/19/thereisnosuchthingasadragon/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/09/19/thereisnosuchthingasadragon/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
         </div>
       </div>
       <div class="c-recent-post">
         <h4 class="c-recent__title">You might also enjoy</h4>
         <div class="c-recent__box">
-        
-        
-          <div class="c-recent__item">
-            <a class="c-recent__image" href="/blog//2018/09/19/thereisnosuchthingasadragon/" style="background-image: url( /blog/images/narrative/nosuchthingdragon05.jpg)"></a>
-            <div class="c-recent__footer">
-              <h4><a href="/blog//2018/09/19/thereisnosuchthingasadragon/">There’s No Such Thing As a Dragon</a></h4>
-              <div class="c-recent__date">
-                <time datetime="2018-09-19T00:00:00-04:00">September 19, 2018</time>
-              </div>
-            </div>
-          </div>
-        
         
         
           <div class="c-recent__item">
@@ -207,6 +142,9 @@
               </div>
             </div>
           </div>
+        
+        
+        
         
         
         </div>
