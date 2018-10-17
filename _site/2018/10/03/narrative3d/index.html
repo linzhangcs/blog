@@ -5,9 +5,9 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>Googlemancy</title>
-  <meta name='description' content="For my “-omancy” divination invention, I was inspired by Google’s “I’m feeling lucky” option. I remember the first time when I used Google. I didn’t quite un...">
-  <link rel='canonical' href="http://localhost:4000/blog/2018/03/07/googlemancy/">
+  <title>Exploration of narrative in 3D</title>
+  <meta name='description' content="During the course of this class, we explored with a lot of tools and programs to generate text based narratives. In those narratives, we discover objects and...">
+  <link rel='canonical' href="http://localhost:4000/blog/2018/10/03/narrative3d/">
   <link rel='alternate' type='application/rss+xml' title='Welcome to Lin's Blog :)' href="http://localhost:4000/blog/feed.xml">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
@@ -93,78 +93,52 @@
     
     <div class="c-wrap-content">
       <header class="c-article__header">
-        <h1 class="c-article__title">Googlemancy</h1>
+        <h1 class="c-article__title">Exploration of narrative in 3D</h1>
         <div class="c-article__date">
-          <span>2018, Mar 07</span>
+          <span>2018, Oct 03</span>
         </div>
       </header>
-      <p>For my “-omancy” divination invention, I was inspired by Google’s “I’m feeling lucky” option. I remember the first time when I used Google. I didn’t quite understand the point of the second button on the main page. Even after trying it, I still only use the search button. But it did leave an impression on my, because its deterministic and predictive nature. It definitely works as a prophecy about a specific request.</p>
+      <p>During the course of this class, we explored with a lot of tools and programs to generate text based narratives. In those narratives, we discover objects and space through text based description. I find that process very interesting and challenging. It is interesting because I can imagine the specifics, but challenging because it becomes difficult to keep track all of the connections in my mind. I found myself gravitate towards more visually represented tools, like ren’py because of that reason. Originally, I proposed to adapt a story I did in twine in ren’py. However, I looked more into more ways to produce a visual story. I wanted to explore narrative structure in Unity.</p>
 
-<p><img src="/blog/images/electricRitual/luckyscreen.png" alt="I am feeling lucky" /></p>
+<p>Unity is great for creating a 3d environment, but there is not a way to give narrative structure to all the interaction. I wanted to know if there are existing ways to integrate them.</p>
 
-<p>For my project, I want to modify this divination method. As a way to start, I googled about “Googlemancy”. Interestingly, there are people already <a href="http://occultcorpus.com/forums/index.php?/topic/14136-googlemancy/">proposed</a> it. Here are list of methods:</p>
+<p>My exploration started with trying to integrate twine stories into Unity. I found a plugin called <a href="https://github.com/daterre/Cradle">Cradle</a>, added it into Unity. Also, played a cradle game called <a href="http://daterre.com/projects/snoozing/">snoozing</a>. I found out it converts an existing twine story into Unity objects in a scene, rather than parsing the branching narrative logic in a twine story. I was hoping to add AR components to interact with the story, however, using Cradle would not be the best choice for it.</p>
 
-<h4 id="asking-the-question">Asking the Question:</h4>
+<p>Here is a video of Cradle in Unity:</p>
 
-<ul>
-  <li>Method One: Type in your full question into the search box</li>
-  <li>Method Two: Type in only the keywords of the question</li>
-</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AQKOWikDlJ0?start=3" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
-<h4 id="getting-an-answer">Getting an Answer:</h4>
+<p>I spent more time looking into tools that would enable me to add story logic to Unity. I came cross a plugin called <a href="http://fungusgames.com/">Fungus</a>. The creator introduced it as being inspired by Twine and ren’py.</p>
 
-<p>Method One: “I’m Feeling Lucky”  It will take you to the primary result for the search query. Once there read the page and divine your answer from the result.</p>
+<p>Also, I played one of the games that is made with Fungus, called <a href="https://vltmn.itch.io/lieve-oma">Lieve Oma</a>.
+<img src="/blog/images/narrative/lieveoma.png" alt="granny" /></p>
 
-<p>Method Two: Method 23  Ask your question then click the “Google Search” then count to the 23rd entry within the SERP (Search Engine Rank Position). Alternatively you can browse your way to page twenty three and take the top result from that page. 23 is a big number in Chaos Circles so that is the number I have used here. Feel free to use any special number that has a significance to you.</p>
+<p><img src="/blog/images/narrative/fungus.png" alt="fungus" /></p>
 
-<p>Method Three: Google Images  This method is just like the previous method but rather then divining from the text or overall page you will be interpreting only the image results.</p>
+<p>Fungus is what I was looking for adding story logic into unity. Once fungus is installed and imported, it offers a flowchart for the game logic and keeping track of variables. It is very simple to use and works well with Unity existing uses of the program UI.</p>
 
-<p>Using Google Images may offer the best result if you are using the second method for asking the question (keywords).
-Alternatively you can simply take all of the images on the first (or 23rd) page and figure out your answer by taking bits and pieces from all of the thumbs shown on the first page.
-Again I feel it’s best to pick one method and stick to that with only changing when there is no reply. Though some may feel that no results found <strong>IS</strong> the answer, and there is certainly nothing wrong with that. Maybe rephrase the question and ask again.</p>
+<p><img src="/blog/images/narrative/flowchart.png" alt="flowchart" /></p>
 
-<h3 id="advanced-methods">Advanced methods:</h3>
+<p>With the time I have, I only implemented a scene of the storyline. It is the boy founding a dragon in his room.</p>
 
-<h4 id="asking-the-question-1">Asking the Question:</h4>
-
-<ul>
-  <li>Method Three (sigilization): Break down your Question as you would a Statement of Intent in Sigilization. Use one of the previous methods for reading the results, or check below for a new one.</li>
-</ul>
-
-<h4 id="getting-an-answer-1">Getting an answer:</h4>
-
-<p>Method Four (<a href="https://www.youtube.com/watch?v=GZ019mza4RA">sigilization</a>): With the new “SMART” search on Google, you will see INSTANT results and these will change with each and every additional letter of your query</p>
-
-<p>1: Pick a number (5?) and list all the links till you are done. Read these as a tarot spread.</p>
-
-<p>2: Use the varied results to create an anagram of sorts. Use the fifth(?) results and pull off the fifth letter of each additional letter. This will either spell out your answer directory, or give you an additional puzzle to ponder.</p>
-
-<p>Also here is comparison between Googlemancy to <a href="https://en.wikipedia.org/wiki/Bibliomancy">Bibliomancy</a>
-There is a website dedicated to <a href="http://www.thechurchofgoogle.org/googleprayers/">Googlism</a>, worship Google as a god.</p>
-
-<p>I decide to implement answer method two using Google Custom Search API. I will ask user to input their birthday and use that as a way to pick a number.</p>
-
-<p>Here is my <a href="https://github.com/linzhangcs/googlemancy/">code repo</a>. You can try the website <a href="https://linzhangcs.github.io/googlemancy/">here</a></p>
+<p><img src="/blog/images/narrative/boydragon.png" alt="boydragon" /></p>
 
       <div class="c-article__footer u-clearfix">
         <div class="c-article__tag">
           
-          <a href="/blog/tags#Electronic Rituals">&#35; Electronic Rituals</a>
+          <a href="/blog/tags#Computational Approaches to Narrative">&#35; Computational Approaches to Narrative</a>
           
         </div>
         <div class="c-article__share">
-          <a href="https://twitter.com/intent/tweet?text=Googlemancy&url=http://localhost:4000/2018/03/07/googlemancy/" title="Share
+          <a href="https://twitter.com/intent/tweet?text=Exploration%20of%20narrative%20in%203D&url=http://localhost:4000/2018/10/03/narrative3d/" title="Share
           on Twitter" rel="nofollow" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/03/07/googlemancy/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/03/07/googlemancy/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/10/03/narrative3d/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/10/03/narrative3d/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
         </div>
       </div>
       <div class="c-recent-post">
         <h4 class="c-recent__title">You might also enjoy</h4>
         <div class="c-recent__box">
-        
-        
-        
         
         
         
@@ -176,6 +150,18 @@ There is a website dedicated to <a href="http://www.thechurchofgoogle.org/google
               <h4><a href="/blog//2018/09/25/riggedmodel/">3D Model Resizing and Rigging</a></h4>
               <div class="c-recent__date">
                 <time datetime="2018-09-25T00:00:00-04:00">September 25, 2018</time>
+              </div>
+            </div>
+          </div>
+        
+        
+        
+          <div class="c-recent__item">
+            <a class="c-recent__image" href="/blog//2018/09/24/powerandsettingexpectations/" style="background-image: url( /blog/images/oss/responsibility.jpg)"></a>
+            <div class="c-recent__footer">
+              <h4><a href="/blog//2018/09/24/powerandsettingexpectations/">Responsibility of Setting Culture Norm</a></h4>
+              <div class="c-recent__date">
+                <time datetime="2018-09-24T00:00:00-04:00">September 24, 2018</time>
               </div>
             </div>
           </div>
