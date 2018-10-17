@@ -5,7 +5,7 @@ date: 2018-10-03
 author: Lin Zhang
 layout: post
 comments: true
-image:
+image: narrative/boydragonroom.png
 tags: [Computational Approaches to Narrative]
 ---
 
@@ -35,3 +35,5 @@ Fungus is what I was looking for adding story logic into unity. Once fungus is i
 With the time I have, I only implemented a scene of the storyline. It is the boy founding a dragon in his room.
 
 ![boydragon]({{site.baseurl}}/images/narrative/boydragon.png)
+
+Here is a link for download mac build of the first scene of the story: [Boy and dragon scene one]({{site.baseurl}}/images/narrative/billydragon.app)
