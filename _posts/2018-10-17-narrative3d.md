@@ -1,7 +1,7 @@
 ---
 title: Exploration of narrative in 3D
 subtitle:
-date: 2018-10-03
+date: 2018-10-17
 author: Lin Zhang
 layout: post
 comments: true
