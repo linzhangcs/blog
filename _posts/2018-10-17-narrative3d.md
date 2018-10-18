@@ -1,7 +1,7 @@
 ---
 title: Exploration of narrative in 3D
 subtitle:
-date: 2018-10-17
+date: 2018-10-03
 author: Lin Zhang
 layout: post
 comments: true
@@ -36,4 +36,5 @@ With the time I have, I only implemented a scene of the storyline. It is the boy
 
 ![boydragon]({{site.baseurl}}/images/narrative/boydragon.png)
 
-Here is a link for download mac build of the first scene of the story: [Boy and dragon scene one]({{site.baseurl}}/images/narrative/billydragon.app)
+Here is a link for download mac build of the first scene of the story.
+[Boy and dragon scene one]({{site.baseurl}}/images/narrative/boydragon.zip)- right-click and save link as. 
