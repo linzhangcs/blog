@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Lifted",
+      "category" : "",
+      "tags"     : "Performative Avatar",
+      "url"      : "/blog/2018/10/23/lifted/",
+      "date"     : "2018-10-23 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Exploration of narrative in 3D",
       "category" : "",
       "tags"     : "Computational Approaches to Narrative",
