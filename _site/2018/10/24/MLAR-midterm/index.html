@@ -5,9 +5,9 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>Random Walker</title>
-  <meta name='description' content="To expand on random walker, I experimented with levy flight, perlin noise and probabilities. I thought it would be interesting to add a way to generate more ...">
-  <link rel='canonical' href="http://localhost:4000/blog/2018/01/30/randomwalker/">
+  <title>ML Image Recognition in AR</title>
+  <meta name='description' content="For midterm project, My partner, Mengzhen, and I want to explore machine learning image recognition in AR.">
+  <link rel='canonical' href="http://localhost:4000/blog/2018/10/24/MLAR-midterm/">
   <link rel='alternate' type='application/rss+xml' title='Welcome to Lin's Blog :)' href="http://localhost:4000/blog/feed.xml">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
@@ -90,54 +90,92 @@
       </div>
     </header>
     
-    <div class="c-article__image o-opacity" style="background-image: url( /blog/images/noc/levy.png )"></div>
+    <div class="c-article__image o-opacity" style="background-image: url( /blog/images/magicWindows/mlar.png )"></div>
     
     <div class="c-wrap-content">
       <header class="c-article__header">
-        <h1 class="c-article__title">Random Walker</h1>
+        <h1 class="c-article__title">ML Image Recognition in AR</h1>
         <div class="c-article__date">
-          <span>2018, Jan 30</span>
+          <span>2018, Oct 24</span>
         </div>
       </header>
-      <p>To expand on random walker, I experimented with levy flight, perlin noise and probabilities. I thought it would be interesting to add a way to generate more walkers. So when the walker is choosing to move in a direction, a new walker will is added that is moving in the opposite direction.</p>
+      <p>For midterm project, My partner, <a href="https://www.mengzhenxiao.com">Mengzhen</a>, and I want to explore machine learning image recognition in AR.</p>
 
-<p>The sketch can be found <a href="http://alpha.editor.p5js.org/linzhang/sketches/BJdMEdTSz">here</a></p>
+<h2 id="concept">Concept</h2>
 
-<p><img src="/blog/images/noc/levy.png" alt="levy" />
-<img src="/blog/images/noc/perlin.png" alt="perlin" />
-<img src="/blog/images/noc/finalsize.png" alt="finalsize" />
-<img src="/blog/images/noc/final.png" alt="final" /></p>
+<p>So far in class we explored using image or object targets for adding augmentable into the space. While it is a great way to trigger changes, we want to see an experience that would react to objects without the constraint of selecting and adding a target first.</p>
 
-<p>After experimenting with different ways to create randomness, I find it hard to generate compelling images based on randomness alone. I think the walker needs to have some directives to follow or there has to be an underlining pattern as a structure to build upon.</p>
+<p>Mengzhen has experimented with an example of AR experience that would recognize a drawing of a clock and shows a working digital clock to the user.</p>
+
+<iframe src="https://www.youtube.com/embed/hoRNVjwJf0w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>We found the direct translation from real life to digital representation as an area that is rich exploration. Especially, if the application would recognize and react to the objects in the physical environment.</p>
+
+<iframe src="https://www.youtube.com/embed/PIJc0TSDdRo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Once the object is recognized, there are multiple ways of react to it in AR experience:</p>
+
+<ul>
+  <li>
+    <p><strong>Create new augmentable in the scene</strong></p>
+
+    <p><img src="https://media.giphy.com/media/EczciuU6VuEoGXxITY/giphy.gif" alt="ar clock" /></p>
+  </li>
+  <li>
+    <p><strong>Add special effects to the physical object</strong></p>
+  </li>
+</ul>
+
+<p><img src="https://www.thisiscolossal.com/wp-content/uploads/2014/04/letters.gif" alt="effects" /></p>
+
+<p><img src="https://www.thisiscolossal.com/wp-content/uploads/2014/04/pensmoke.gif" alt="effects" /></p>
+
+<ul>
+  <li>
+    <p><strong>Use the object abstractly - passed its name to 3rd party api or fetch related data</strong></p>
+
+    <p><img src="https://media.giphy.com/media/fH92WkWMHVNjaiUAUb/giphy.gif" alt="tweetAR" /></p>
+  </li>
+  <li>
+    <p><strong>Interaction between augmentable and real person</strong></p>
+    <ul>
+      <li>voice recognition / voice command</li>
+      <li>facial expression</li>
+      <li>react to the changes in the physical environment</li>
+    </ul>
+  </li>
+</ul>
+
+<iframe src="https://www.youtube.com/embed/6CNNJYKGluc?start=49" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p><strong>Voice command</strong></p>
+
+<iframe src="https://www.youtube.com/embed/NhJydpMkpug?start=170" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+<p><strong>Reaction to changes in the physical enviroment</strong></p>
+
+<h2 id="tech-stack">Tech Stack</h2>
+
+<p><a href="https://js.tensorflow.org/">Tensorflow.js</a></p>
+
+<p><a href="https://developers.google.com/ar/">ARCore</a></p>
+
+<iframe src="https://www.youtube.com/embed/uPPo4QNOZZo?start=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
 
       <div class="c-article__footer u-clearfix">
         <div class="c-article__tag">
           
-          <a href="/blog/tags#Nature of Code">&#35; Nature of Code</a>
+          <a href="/blog/tags#Magic Windows">&#35; Magic Windows</a>
           
         </div>
         <div class="c-article__share">
-          <a href="https://twitter.com/intent/tweet?text=Random%20Walker&url=http://localhost:4000/2018/01/30/randomwalker/" title="Share
+          <a href="https://twitter.com/intent/tweet?text=ML%20Image%20Recognition%20in%20AR&url=http://localhost:4000/2018/10/24/MLAR-midterm/" title="Share
           on Twitter" rel="nofollow" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/01/30/randomwalker/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/01/30/randomwalker/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/2018/10/24/MLAR-midterm/" title="Share on Facebook" rel="nofollow" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/2018/10/24/MLAR-midterm/" title="Share on Google+" rel="nofollow" target="_blank"><div data-icon='ei-sc-google-plus' data-size='s'></div></a>
         </div>
       </div>
       <div class="c-recent-post">
         <h4 class="c-recent__title">You might also enjoy</h4>
         <div class="c-recent__box">
-        
-        
-          <div class="c-recent__item">
-            <a class="c-recent__image" href="/blog//2018/10/24/MLAR-midterm/" style="background-image: url( /blog/images/magicWindows/mlar.png)"></a>
-            <div class="c-recent__footer">
-              <h4><a href="/blog//2018/10/24/MLAR-midterm/">ML Image Recognition in AR</a></h4>
-              <div class="c-recent__date">
-                <time datetime="2018-10-24T00:00:00-04:00">October 24, 2018</time>
-              </div>
-            </div>
-          </div>
-        
         
         
           <div class="c-recent__item">
@@ -161,6 +199,9 @@
               </div>
             </div>
           </div>
+        
+        
+        
         
         
         </div>
