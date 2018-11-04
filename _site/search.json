@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Sketch To 3D",
+      "category" : "",
+      "tags"     : "Magic Windows",
+      "url"      : "/blog/2018/10/31/sketchTo3D/",
+      "date"     : "2018-10-31 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "ML Image Recognition in AR",
       "category" : "",
       "tags"     : "Magic Windows",

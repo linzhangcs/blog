@@ -12,7 +12,7 @@ tags: [Magic Windows]
 For midterm project, My partner, [Mengzhen](https://www.mengzhenxiao.com), and I want to explore machine learning image recognition in AR.
 
 
-## Concept
+## Concept Interest
 
 So far in class we explored using image or object targets for adding augmentable into the space. While it is a great way to trigger changes, we want to see an experience that would react to objects without the constraint of selecting and adding a target first.
 
@@ -57,3 +57,5 @@ Once the object is recognized, there are multiple ways of react to it in AR expe
 [ARCore](https://developers.google.com/ar/)
 
 <iframe src="https://www.youtube.com/embed/uPPo4QNOZZo?start=2" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+# Concept
