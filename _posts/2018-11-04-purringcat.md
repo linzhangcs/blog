@@ -26,11 +26,11 @@ And the much simpler breadboard:
 
 After we cleaned up the wires, we played with different vibration pattern. Also the placement of the vibration motors. To give the user a sense of direction, we made and added a tail to the cat's body as well:
 
-![vibration motors]({{site.baseurl}}/images/haptics/pur.JPG)
-![motors]({{site.baseurl}}/images/haptics/purring.jpg)
+![vibration motors]({{site.baseurl}}/images/haptics/pur.jpg)
+![motors]({{site.baseurl}}/images/haptics/purring.JPG)
 
 We experimented with embedding the motors into the cardboard. However, we noticed the vibration would be directed towards to bottom. We reverted back to placing them on top of the cardboard, and closer to each other. Once we have the purring effect working with the one-directional petting. We shared kitty 2.0 with other ITP students.  
-![vibration motors]({{site.baseurl}}/images/haptics/kitty2.JPG)
+![vibration motors]({{site.baseurl}}/images/haptics/kitty2.jpg)
 ![motors]({{site.baseurl}}/images/haptics/playtest.jpg)
 
 Here is the code for the project:
