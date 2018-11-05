@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Purring Cat 2.0",
+      "category" : "",
+      "tags"     : "Haptics",
+      "url"      : "/blog/2018/11/04/purringcat/",
+      "date"     : "2018-11-04 00:00:00 -0400"
+    } ,
+  
+    {
       "title"    : "Sketch To 3D",
       "category" : "",
       "tags"     : "Magic Windows",
