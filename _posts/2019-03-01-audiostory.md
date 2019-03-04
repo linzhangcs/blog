@@ -25,3 +25,7 @@ For this audio story, I want to make a story about a conflict that is in my life
 I thought her way of mapping out the structure of the piece is very useful, so I used the classic narrative arc map to guide myself during editing.
 
 ![lin audio story editing process]({{site.baseurl}}/images/collectivenarrative/narrativearc.jpg)
+
+My original plan was to keep this story around 15 minutes, but after editing a lot of material out it is hard to make it that short and complete.
+
+Here is a link to the [audio file](https://soundcloud.com/user-860816696/portrait-of-a-conflict/s-4TY5h).
