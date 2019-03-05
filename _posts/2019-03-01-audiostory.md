@@ -11,7 +11,9 @@ tags: [Collective Narrative]
 
 I've been listening to radio shows ever since I was in middle school. I like the format because it portraits a story in details, and yet still leave room for listeners to use their imagination to fill out the visuals.
 
-For this audio story, I want to make a story about a conflict that is in my life. At the heart of every interesting story there is a conflict, big or small, so I thought of recording my journey of understand and resolve my own conflict as a story. As a part of my understanding of conflicts in general, I did a 2 hours training on conflict resolution, where I learned about my conflict style and theories about conflicts. The specific model about conflict used was PIN model - as in Position, Interest, and Need.
+For this audio story, I want to make a story about a conflict that is in my life. At the heart of every interesting story there is a conflict, big or small. And for every conflict there are different sides of the same event. Similar to the excerpt from They Poured Fire on Us From the Sky, it describes the same event from different people's perspective. So I thought of recording my journey of understanding and resolving my own conflict as a story.
+
+As a part of my understanding of conflicts in general, I did a 2 hours training on conflict resolution, where I learned about my conflict style and theories about conflicts. The specific model about conflict used was PIN model - as in Position, Interest, and Need.
 
 ![pin model]({{site.baseurl}}/images/collectivenarrative/conflictmodel.jpg)
 
