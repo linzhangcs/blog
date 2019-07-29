@@ -1,11 +1,43 @@
 [
   
     {
+      "title"    : "Natal Chart - Object for Creating a Personal Narrative",
+      "category" : "",
+      "tags"     : "Collective Narrative",
+      "url"      : "/blog/2019/03/10/objectnarrative/",
+      "date"     : "2019-03-10 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Portrait of A Conflict",
+      "category" : "",
+      "tags"     : "Collective Narrative",
+      "url"      : "/blog/2019/03/01/audiostory/",
+      "date"     : "2019-03-01 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "Hourly Document of A Day",
+      "category" : "",
+      "tags"     : "Collective Narrative",
+      "url"      : "/blog/2019/02/06/everyhour/",
+      "date"     : "2019-02-06 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "W3C Accessibility",
+      "category" : "",
+      "tags"     : "Open Source Studio",
+      "url"      : "/blog/2018/11/05/accessibilityaudit/",
+      "date"     : "2018-11-05 00:00:00 -0800"
+    } ,
+  
+    {
       "title"    : "Purring Cat 2.0",
       "category" : "",
       "tags"     : "Haptics",
       "url"      : "/blog/2018/11/04/purringcat/",
-      "date"     : "2018-11-04 00:00:00 -0400"
+      "date"     : "2018-11-04 00:00:00 -0700"
     } ,
   
     {
@@ -13,7 +45,7 @@
       "category" : "",
       "tags"     : "Magic Windows",
       "url"      : "/blog/2018/10/31/sketchTo3D/",
-      "date"     : "2018-10-31 00:00:00 -0400"
+      "date"     : "2018-10-31 00:00:00 -0700"
     } ,
   
     {
@@ -21,7 +53,7 @@
       "category" : "",
       "tags"     : "Magic Windows",
       "url"      : "/blog/2018/10/24/MLAR-midterm/",
-      "date"     : "2018-10-24 00:00:00 -0400"
+      "date"     : "2018-10-24 00:00:00 -0700"
     } ,
   
     {
@@ -29,7 +61,7 @@
       "category" : "",
       "tags"     : "Performative Avatar",
       "url"      : "/blog/2018/10/23/lifted/",
-      "date"     : "2018-10-23 00:00:00 -0400"
+      "date"     : "2018-10-23 00:00:00 -0700"
     } ,
   
     {
@@ -37,7 +69,7 @@
       "category" : "",
       "tags"     : "Computational Approaches to Narrative",
       "url"      : "/blog/2018/10/03/narrative3d/",
-      "date"     : "2018-10-03 00:00:00 -0400"
+      "date"     : "2018-10-03 00:00:00 -0700"
     } ,
   
     {
@@ -45,7 +77,7 @@
       "category" : "",
       "tags"     : "Computational Approaches to Narrative",
       "url"      : "/blog/2018/10/03/renpy/",
-      "date"     : "2018-10-03 00:00:00 -0400"
+      "date"     : "2018-10-03 00:00:00 -0700"
     } ,
   
     {
@@ -53,7 +85,7 @@
       "category" : "",
       "tags"     : "Performative Avatar",
       "url"      : "/blog/2018/09/25/riggedmodel/",
-      "date"     : "2018-09-25 00:00:00 -0400"
+      "date"     : "2018-09-25 00:00:00 -0700"
     } ,
   
     {
@@ -61,7 +93,7 @@
       "category" : "",
       "tags"     : "Open Source Studio",
       "url"      : "/blog/2018/09/24/powerandsettingexpectations/",
-      "date"     : "2018-09-24 00:00:00 -0400"
+      "date"     : "2018-09-24 00:00:00 -0700"
     } ,
   
     {
@@ -69,7 +101,7 @@
       "category" : "",
       "tags"     : "Computational Approaches to Narrative",
       "url"      : "/blog/2018/09/19/thereisnosuchthingasadragon/",
-      "date"     : "2018-09-19 00:00:00 -0400"
+      "date"     : "2018-09-19 00:00:00 -0700"
     } ,
   
     {
@@ -77,7 +109,7 @@
       "category" : "",
       "tags"     : "Magic Windows",
       "url"      : "/blog/2018/09/19/projectionmapping/",
-      "date"     : "2018-09-19 00:00:00 -0400"
+      "date"     : "2018-09-19 00:00:00 -0700"
     } ,
   
     {
@@ -85,7 +117,7 @@
       "category" : "",
       "tags"     : "Open Source Studio",
       "url"      : "/blog/2018/09/17/importanceofculture/",
-      "date"     : "2018-09-17 00:00:00 -0400"
+      "date"     : "2018-09-17 00:00:00 -0700"
     } ,
   
     {
@@ -93,7 +125,7 @@
       "category" : "",
       "tags"     : "Performative Avatar",
       "url"      : "/blog/2018/09/17/3dscan/",
-      "date"     : "2018-09-17 00:00:00 -0400"
+      "date"     : "2018-09-17 00:00:00 -0700"
     } ,
   
     {
@@ -101,7 +133,7 @@
       "category" : "",
       "tags"     : "Computational Approaches to Narrative",
       "url"      : "/blog/2018/09/11/randomeStoryGenerator/",
-      "date"     : "2018-09-11 00:00:00 -0400"
+      "date"     : "2018-09-11 00:00:00 -0700"
     } ,
   
     {
@@ -109,7 +141,7 @@
       "category" : "",
       "tags"     : "Magic Windows",
       "url"      : "/blog/2018/09/11/linsgif/",
-      "date"     : "2018-09-11 00:00:00 -0400"
+      "date"     : "2018-09-11 00:00:00 -0700"
     } ,
   
     {
@@ -117,7 +149,7 @@
       "category" : "",
       "tags"     : "The Temporary Expert",
       "url"      : "/blog/2018/09/10/entropy/",
-      "date"     : "2018-09-10 00:00:00 -0400"
+      "date"     : "2018-09-10 00:00:00 -0700"
     } ,
   
     {
@@ -125,7 +157,7 @@
       "category" : "",
       "tags"     : "Performative Avatar",
       "url"      : "/blog/2018/09/10/avatars/",
-      "date"     : "2018-09-10 00:00:00 -0400"
+      "date"     : "2018-09-10 00:00:00 -0700"
     } ,
   
     {
@@ -133,7 +165,7 @@
       "category" : "electronicrituals",
       "tags"     : "Electronic Rituals",
       "url"      : "/blog/2018/05/08/googlemancywearable/",
-      "date"     : "2018-05-08 00:00:00 -0400"
+      "date"     : "2018-05-08 00:00:00 -0700"
     } ,
   
     {
@@ -141,7 +173,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/04/22/chromeextension/",
-      "date"     : "2018-04-22 00:00:00 -0400"
+      "date"     : "2018-04-22 00:00:00 -0700"
     } ,
   
     {
@@ -149,7 +181,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/04/15/gratitudeforest/",
-      "date"     : "2018-04-15 00:00:00 -0400"
+      "date"     : "2018-04-15 00:00:00 -0700"
     } ,
   
     {
@@ -157,7 +189,7 @@
       "category" : "electronicrituals",
       "tags"     : "Electronic Rituals",
       "url"      : "/blog/2018/04/12/random/",
-      "date"     : "2018-04-12 00:00:00 -0400"
+      "date"     : "2018-04-12 00:00:00 -0700"
     } ,
   
     {
@@ -165,7 +197,7 @@
       "category" : "expressiveinterface",
       "tags"     : "Expressive Interface",
       "url"      : "/blog/2018/03/28/softcircuit/",
-      "date"     : "2018-03-28 00:00:00 -0400"
+      "date"     : "2018-03-28 00:00:00 -0700"
     } ,
   
     {
@@ -173,7 +205,7 @@
       "category" : "electronicrituals",
       "tags"     : "Electronic Rituals",
       "url"      : "/blog/2018/03/28/automaticwriting/",
-      "date"     : "2018-03-28 00:00:00 -0400"
+      "date"     : "2018-03-28 00:00:00 -0700"
     } ,
   
     {
@@ -181,7 +213,7 @@
       "category" : "electronicrituals",
       "tags"     : "Electronic Rituals",
       "url"      : "/blog/2018/03/07/googlemancy/",
-      "date"     : "2018-03-07 00:00:00 -0500"
+      "date"     : "2018-03-07 00:00:00 -0800"
     } ,
   
     {
@@ -189,7 +221,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/03/04/flocking/",
-      "date"     : "2018-03-04 00:00:00 -0500"
+      "date"     : "2018-03-04 00:00:00 -0800"
     } ,
   
     {
@@ -197,7 +229,7 @@
       "category" : "electronicrituals",
       "tags"     : "Electronic Rituals",
       "url"      : "/blog/2018/02/21/tarotcards/",
-      "date"     : "2018-02-21 00:00:00 -0500"
+      "date"     : "2018-02-21 00:00:00 -0800"
     } ,
   
     {
@@ -205,7 +237,7 @@
       "category" : "tangibleInteraction",
       "tags"     : "Tangible Interaction and Physical Computing",
       "url"      : "/blog/2018/02/19/sensorreport/",
-      "date"     : "2018-02-19 00:00:00 -0500"
+      "date"     : "2018-02-19 00:00:00 -0800"
     } ,
   
     {
@@ -213,7 +245,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/02/15/system/",
-      "date"     : "2018-02-15 00:00:00 -0500"
+      "date"     : "2018-02-15 00:00:00 -0800"
     } ,
   
     {
@@ -221,7 +253,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/02/11/beesbombs/",
-      "date"     : "2018-02-11 00:00:00 -0500"
+      "date"     : "2018-02-11 00:00:00 -0800"
     } ,
   
     {
@@ -229,7 +261,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/02/05/attractor/",
-      "date"     : "2018-02-05 00:00:00 -0500"
+      "date"     : "2018-02-05 00:00:00 -0800"
     } ,
   
     {
@@ -237,7 +269,7 @@
       "category" : "natureofcode",
       "tags"     : "Nature of Code",
       "url"      : "/blog/2018/01/30/randomwalker/",
-      "date"     : "2018-01-30 00:00:00 -0500"
+      "date"     : "2018-01-30 00:00:00 -0800"
     } ,
   
     {
@@ -245,7 +277,15 @@
       "category" : "tangibleInteraction",
       "tags"     : "Tangible Interaction and Physical Computing",
       "url"      : "/blog/2018/01/30/gamecontroller/",
-      "date"     : "2018-01-30 00:00:00 -0500"
+      "date"     : "2018-01-30 00:00:00 -0800"
+    } ,
+  
+    {
+      "title"    : "SeeSaw production",
+      "category" : "PhysicalComputing",
+      "tags"     : "Physical Computing",
+      "url"      : "/blog/2017/12/15/SeeSawProduction/",
+      "date"     : "2017-12-15 00:00:00 -0800"
     } ,
   
     {
@@ -253,7 +293,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/12/13/seesawfinal/",
-      "date"     : "2017-12-13 00:00:00 -0500"
+      "date"     : "2017-12-13 00:00:00 -0800"
     } ,
   
     {
@@ -261,7 +301,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/11/29/seesawfab/",
-      "date"     : "2017-11-29 00:00:00 -0500"
+      "date"     : "2017-11-29 00:00:00 -0800"
     } ,
   
     {
@@ -269,7 +309,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/11/16/seesawdesign/",
-      "date"     : "2017-11-16 00:00:00 -0500"
+      "date"     : "2017-11-16 00:00:00 -0800"
     } ,
   
     {
@@ -277,7 +317,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/10/31/finalIdeas/",
-      "date"     : "2017-10-31 00:00:00 -0400"
+      "date"     : "2017-10-31 00:00:00 -0700"
     } ,
   
     {
@@ -285,7 +325,7 @@
       "category" : "fabrication",
       "tags"     : "Intro to Fabrication and Fabrication",
       "url"      : "/blog/2017/10/17/motor/",
-      "date"     : "2017-10-17 00:00:00 -0400"
+      "date"     : "2017-10-17 00:00:00 -0700"
     } ,
   
     {
@@ -293,7 +333,7 @@
       "category" : "fabrication",
       "tags"     : "",
       "url"      : "/blog/2017/10/07/materialstudy/",
-      "date"     : "2017-10-07 00:00:00 -0400"
+      "date"     : "2017-10-07 00:00:00 -0700"
     } ,
   
     {
@@ -301,7 +341,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/10/03/RGBLed/",
-      "date"     : "2017-10-03 00:00:00 -0400"
+      "date"     : "2017-10-03 00:00:00 -0700"
     } ,
   
     {
@@ -309,7 +349,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Intro to Fabrication, Fabrication, and Physical Computing",
       "url"      : "/blog/2017/10/03/servoAutomata/",
-      "date"     : "2017-10-03 00:00:00 -0400"
+      "date"     : "2017-10-03 00:00:00 -0700"
     } ,
   
     {
@@ -317,7 +357,7 @@
       "category" : "fabrication",
       "tags"     : "Intro to Fabrication and Fabrication",
       "url"      : "/blog/2017/10/03/automata/",
-      "date"     : "2017-10-03 00:00:00 -0400"
+      "date"     : "2017-10-03 00:00:00 -0700"
     } ,
   
     {
@@ -325,7 +365,7 @@
       "category" : "video&sound",
       "tags"     : "Video and Sound",
       "url"      : "/blog/2017/09/28/storyboard/",
-      "date"     : "2017-09-28 00:00:00 -0400"
+      "date"     : "2017-09-28 00:00:00 -0700"
     } ,
   
     {
@@ -333,7 +373,7 @@
       "category" : "fabrication",
       "tags"     : "Intro to Fabrication and Fabrication",
       "url"      : "/blog/2017/09/27/laser-cutter/",
-      "date"     : "2017-09-27 00:00:00 -0400"
+      "date"     : "2017-09-27 00:00:00 -0700"
     } ,
   
     {
@@ -341,7 +381,7 @@
       "category" : "video&sound",
       "tags"     : "Video and Sound",
       "url"      : "/blog/2017/09/22/soundWalk/",
-      "date"     : "2017-09-22 00:00:00 -0400"
+      "date"     : "2017-09-22 00:00:00 -0700"
     } ,
   
     {
@@ -349,7 +389,7 @@
       "category" : "fabrication",
       "tags"     : "Intro to Fabrication and Fabrication",
       "url"      : "/blog/2017/09/18/fabMultiples/",
-      "date"     : "2017-09-18 00:00:00 -0400"
+      "date"     : "2017-09-18 00:00:00 -0700"
     } ,
   
     {
@@ -357,7 +397,7 @@
       "category" : "video&sound",
       "tags"     : "Video and Sound",
       "url"      : "/blog/2017/09/14/readingweekone/",
-      "date"     : "2017-09-14 00:00:00 -0400"
+      "date"     : "2017-09-14 00:00:00 -0700"
     } ,
   
     {
@@ -365,7 +405,7 @@
       "category" : "video&sound",
       "tags"     : "Video and Sound",
       "url"      : "/blog/2017/09/14/videosound/",
-      "date"     : "2017-09-14 00:00:00 -0400"
+      "date"     : "2017-09-14 00:00:00 -0700"
     } ,
   
     {
@@ -373,7 +413,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/09/12/switch/",
-      "date"     : "2017-09-12 00:00:00 -0400"
+      "date"     : "2017-09-12 00:00:00 -0700"
     } ,
   
     {
@@ -381,7 +421,7 @@
       "category" : "PhysicalComputing",
       "tags"     : "Physical Computing",
       "url"      : "/blog/2017/09/12/pcomp/",
-      "date"     : "2017-09-12 00:00:00 -0400"
+      "date"     : "2017-09-12 00:00:00 -0700"
     } ,
   
     {
@@ -389,7 +429,7 @@
       "category" : "fabrication",
       "tags"     : "Intro to Fabrication and Fabrication",
       "url"      : "/blog/2017/09/10/fabrication/",
-      "date"     : "2017-09-10 00:00:00 -0400"
+      "date"     : "2017-09-10 00:00:00 -0700"
     } 
   
 ]
