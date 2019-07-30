@@ -6,7 +6,7 @@ author: Lin Zhang
 layout: post
 comments: true
 categories: PhysicalComputing
-image: pcomp/seesaw-fab/img_5163.JPG
+image: pcomp/IMG_5163.JPG
 tags: [Physical Computing]
 ---
 
